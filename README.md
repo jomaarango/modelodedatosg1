@@ -1,12 +1,17 @@
-# Proyecto 
+## Seguridad en Bases de Datos basado en Framework de Ciberseguridad NIST ## 
+###### Entrega 1 ######
 Este repositorio tiene como objetivo cargar la información de la base de datos a utilizar para el proyecto de seguridad de base de datos de la Maestria de seguridad informatica y las comunicaciones C 01 el cual tiene los siguientes criterios:
 
 * Escoger un conjunto de datos que se pueda descargar de Internet.
 * Describir investigar la organización dueña o generadora de los datos.
 * Cargar el conjunto de datos en el DBMS que prefiera.
 * Aplicar todos los controles del NIST:
-– Entrega 1: Identify, Protect_A
-– Entrega 2: Protect_B y Detect.
+ * Identify:
+Información, datos, flujo de datos, seguridad, motores de bases de datos, clasificación
+roles, terceros, legales, riesgos, vulnerabilidades, amenazas, planeación y pruebas. 
+   * Protect:
+Control de acceso, data-at-rest, data-in-transit, asset lifecycle, disponibilidad, fugas.
+Integridad, líneas base, cambios, backups, mantenimiento remoto, logs, resiliencia. 
 * Utilizar GitHub para gestionar y publicar los documentos del proyecto, slack para
 colaboración y workast para planear el proyecto.
 * En lo posible utilizar videos para documentar la aplicación de controles, mínimo 1
