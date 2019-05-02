@@ -7,8 +7,8 @@ Este repositorio tiene como objetivo cargar la información de la base de datos 
 * Cargar el conjunto de datos en el DBMS que prefiera.
 * Aplicar todos los controles del NIST:
   * **Identify:
-Información, datos, flujo de datos, seguridad, motores de bases de datos, clasificación
-roles, terceros, legales, riesgos, vulnerabilidades, amenazas, planeación y pruebas. 
+  
+ 
   * **Protect:
   
 * Control de acceso
@@ -18,8 +18,6 @@ roles, terceros, legales, riesgos, vulnerabilidades, amenazas, planeación y pru
 * Mantenimiento
 * Tecnología de protección
 
-Control de acceso, data-at-rest, data-in-transit, asset lifecycle, disponibilidad, fugas.
-Integridad, líneas base, cambios, backups, mantenimiento remoto, logs, resiliencia. 
 * Utilizar GitHub para gestionar y publicar los documentos del proyecto, slack para
 colaboración y workast para planear el proyecto.
 * En lo posible utilizar videos para documentar la aplicación de controles, mínimo 1
