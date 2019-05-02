@@ -22,9 +22,9 @@ video por cada entrega resumiendo los resultados.
 ## Integrantes  del proyecto
 
 Arango Jorge Mario   
-Gamez Juan
-Sierra Joaquin   
-Jose Chacon  
+Gamez Juan  
+Sierra Joaquin     
+Jose Chacon    
 
 # Recursos del Proyecto para consultar 
 
