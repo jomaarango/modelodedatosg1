@@ -14,7 +14,17 @@ video por cada entrega resumiendo los resultados.
 * Criterios de Evaluación:
 – Trabajo en equipo, Claridad, Cobertura de los controles, Planeación, Referencias.
 
-Integrantes del proyecto: Jorge Mario, Joaquin Sierra, Juan Gamez, Jose Chacon
+Integrantes del proyecto: 
+Jorge Mario arango 
+Joaquin Sierra
+Juan Gamez
+Jose Chacon
+
+# Recursos del Proyecto para consultar 
+
+Planeacion del proyecto  https://g1msic1seguridadbd.workast.io/my-tasks
+canales de comunicacion colaborativa  g1msic1seguridadbd.slack.com
+repositorio utilizado en github https://github.com/jomaarango/modelodedatosg1
 
 
 ## Guia de lectura
