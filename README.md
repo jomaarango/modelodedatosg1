@@ -37,7 +37,4 @@ repositorio utilizado en github https://github.com/jomaarango/modelodedatosg1
 
 En este repositorio encontrara la documentación completa de los avances de la primer entrega del proyecto total que busca la implementación, documentación y analisis de los dominio de Identificar y Proteger.
 
-## Tabla de contenido 
-
-| Nombre de Documento | Descripcion | |----------|:-------------:|------:| | **Readme**| Documento guia de lector vision general del proyecto | |----------|:-------------:|| **Proyecto_Entrega1.md** | **Informe de la entrega 1 proyecto seguridad en base de datos** |
  
