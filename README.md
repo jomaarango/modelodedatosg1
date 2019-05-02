@@ -10,6 +10,14 @@ Este repositorio tiene como objetivo cargar la información de la base de datos 
 Información, datos, flujo de datos, seguridad, motores de bases de datos, clasificación
 roles, terceros, legales, riesgos, vulnerabilidades, amenazas, planeación y pruebas. 
   * **Protect:
+  
+* Control de acceso
+* Conciencia y Entrenamiento
+* Seguridad de datos
+* Procesos y procedimientos de protección de la información
+* Mantenimiento
+* Tecnología de protección
+
 Control de acceso, data-at-rest, data-in-transit, asset lifecycle, disponibilidad, fugas.
 Integridad, líneas base, cambios, backups, mantenimiento remoto, logs, resiliencia. 
 * Utilizar GitHub para gestionar y publicar los documentos del proyecto, slack para
