@@ -7,6 +7,13 @@ Este repositorio tiene como objetivo cargar la información de la base de datos 
 * Cargar el conjunto de datos en el DBMS que prefiera.
 * Aplicar todos los controles del NIST:
   * Identify:
+  
+* Gestión de activos
+* Ambiente de negocios
+* Gobernancia
+* Evaluación de riesgos
+* Estrategia de Gestión de Riesgos
+  
 Información, datos, flujo de datos, seguridad, motores de bases de datos, clasificación
 roles, terceros, legales, riesgos, vulnerabilidades, amenazas, planeación y pruebas. 
   * Protect:
