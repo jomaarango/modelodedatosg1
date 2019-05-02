@@ -19,10 +19,10 @@ video por cada entrega resumiendo los resultados.
 * Criterios de Evaluación:
 – Trabajo en equipo, Claridad, Cobertura de los controles, Planeación, Referencias.
 
-# Integrantes del proyecto:   
-Jorge Mario arango   
-Joaquin Sierra  
-Juan Gamez   
+##Integrantes  del proyecto  
+Arango Jorge Mario   
+Gamez Juan
+Sierra Joaquin   
 Jose Chacon  
 
 # Recursos del Proyecto para consultar 
