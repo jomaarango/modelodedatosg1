@@ -1,1 +1,1 @@
-## En este espacio encontrar las referencia bibliografica tomadas para el proyecto.
+## En este espacio se pueden encontrar las referencia bibliograficas tomadas para el proyecto.
