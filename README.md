@@ -26,7 +26,7 @@ Gamez Juan
 Sierra Joaquin     
 Jose Chacon    
 
-# Recursos del Proyecto para consultar 🛠️
+## Recursos del Proyecto para consultar 🛠️
 
 Planeacion del proyecto  https://g1msic1seguridadbd.workast.io/my-tasks    
 canales de comunicacion colaborativa  g1msic1seguridadbd.slack.com    
@@ -35,6 +35,6 @@ repositorio utilizado en github https://github.com/jomaarango/modelodedatosg1
 
 ## Guia de lectura 📖
 
-En este repositorio encontrara la documentación completa de los avances de la primer entrega del proyecto total que busca la implementación, documentación y analisis de los dominio de Identificar y Proteger.
+En este repositorio encontrara la documentación completa de los avances de la primer entrega del proyecto total que busca la implementación, documentación y analisis de los dominios de Identificar y Proteger.
 
  
