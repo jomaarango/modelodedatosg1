@@ -52,6 +52,9 @@ Este proyecto es el primer paso hacia el concepto global. En este caso. El proye
 
 • Desarrollar e implementar las salvaguardas apropiadas para garantizar la entrega de servicios de infraestructura críticos.La función de protección admite la capacidad de limitar o contener el impacto de un posible evento de ciberseguridad.
 
+### SELECCIÓN DE REPOSITORIO DE DATOS 
+
+Seleccionamos la base datos en  www.datos.gov.co,  El sistema genera un fichero .CSV, en este Conjunto Datos contiene 8.020 Filas y 24 Columnas, La Base de Datos escalable porque va a permitir la incorporación progresiva de nuevas funcionalidades. Concretamente, la Base de Datos simulará la posibilidad de agregar atributos a las tablas principales de forma dinámica y nuevas tablas para adaptar Framework NIST.
 
 ### CRITERIOS DE SELECCIÓN 
 
