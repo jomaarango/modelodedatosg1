@@ -65,9 +65,33 @@ Con el objetivo de tener un contexto amplio que permita definir/implementar/revi
 * La base de datos debe contener datos sensibles, son aquellos que pueden afectar la intimidad del titular y/o generar discriminación,  tales como aquellos que revelen la orientación política, las orientacion religiosa, la pertenencia a sindicatos, tambien los relativos a la salud, a la vida sexual, y los datos biométricos.
 * La base de datos debe contener datos públicos, hace referencia a los datos relativos al estado civil de las personas, profesión y a su calidad de comerciante o de servidor público.
 
+### DESCRIPCIÓN ORGANIZACIÓN DUEÑA DE LOS DATOS
 
+En relación con la organización dueña de los datos se tiene:  
 
+**Información de la Entidad**  
 
+| PRINCIPAL   | DESCRIPCIÓN       |
+| ---------- | ---------- |
+| **Área o dependencia**    | Dirección de Sistemas de Buen Gobierno y las Tic   |
+| **Nombre de la Entidad**   | Contraloría General de Antioquia     |
+| **Departamento**	          | Antioquia                                        |
+| **Municipio**              | Medellín                                         |
+| **Orden**                  | Territorial                                      |
+| **Sector**	                | Organismos de control y vigilancia               |
+| **Fecha de actualización** | 18 de enero de 2019                              |
+| **Descripción datos**      | Reporte Consolidado de Contratación del mes de Diciembre de AÑO 2018 de las entidades públicas que audita la Contraloría General de Antioquia |
+| **URL ACCESO DATOS**       | <https://www.datos.gov.co/Organismos-de-Control/CONTRATACION-DICIEMBRE-2018/ccgi-m8az> |
 
+### CONTEXTO ORGANIZACIÓN PROYECTO
 
+Para nuestro proyecto establecremos el siguiente contexto basado en los datos de origen:
 
+Organización de contratación que maneja bases de datos sobre sus principales contratistas, para lo cual se porpone un modelo de base de datos con la siguiente estructura:
+
+* Datos contratistas
+     + Datos de Ubicación 
+     + Datos Sensibles
+* Datos Contratos
+
+Con esta estrutura y los datos origen construiremos el modelo de base de datos objeto de analisis apra el proyecto.
