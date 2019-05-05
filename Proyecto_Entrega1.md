@@ -136,3 +136,60 @@ IP INICIAL 12.0.0.0
 IP FINAL   254.0.0.0  
 **Administrador de Active Directory**No configurado  
 
+
+### ID.AM-6: Cybersecurity roles and responsibilities are established
+
+La tabla siguiente muestra los roles fijos de base de datos y sus atribuciones. Estos roles existen en todas las bases de datos Contratos.
+
+
+
+| NOMBRE DE ROL  | DESCRIPCIÓN       |
+| ---------- | ---------- |
+| **db_owner**    | Los miembros de la función de base de datos fijan db_owner pueden realizar todas las actividades de configuración y mantenimiento en la base de datos, y también pueden eliminar la base de datos en SQL Server.    |
+| **db_securityadmin**   | Los miembros de la función de base de datos fijan db_securityadmin pueden modificar la membresía de la función solo para funciones personalizadas, crear usuarios sin inicios de sesión y administrar permisos.      |
+| **db_denydatawriter**	 | Los miembros de la función de base de datos fijan db_denydatawriter no pueden agregar, modificar ni eliminar ningún dato en las tablas de usuario dentro de una base de datos.
+| **db_backupoperator**	| Los miembros de la función de base de datos fijan db_backupoperator pueden hacer una copia de seguridad de la base de datos.
+| **db_denydatareader**	| Los miembros del rol fijo de base de datos db_denydatareader no pueden leer ningún dato en las tablas de usuario dentro de una base de datos.
+| **db_ddladmin**	| Los miembros de la función de base de datos fijan db_ddladmin pueden ejecutar cualquier comando de lenguaje de definición de datos (DDL) en una base de datos
+
+**ROLES FIJOS DE BASE DE DATOS DE CONTRATO**
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_1.JPG)  
+
+**Perfil_roles_db_owner**  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_owner_2.JPG)  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_owner _3.JPG)  
+
+**Perfil_roles_db_securityadmin**  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_securityadmin_4.JPG)  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_securityadmin_SQL_Vista5.JPG)  
+
+**Perfil_roles_db_denydatawriter**  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_denydatawriter_6.JPG)  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_denydatawriter_SQL_Vista_7.JPG)  
+
+**Perfil_roles_db_backupoperator**  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_backupoperator _8.JPG)  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_backupoperator _SQL_Vista9.JPG)  
+
+**Perfil_roles_db_denydatareader**  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_denydatareader _10.JPG)  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_denydatareader _SQL_Vista11.JPG)  
+
+**Perfil_roles_db_ddladmin**   
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_ddladmin_12.JPG)  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Creacion de Perfil_roles_db_ddladmin_SQL_Vista13.JPG)
+
+
