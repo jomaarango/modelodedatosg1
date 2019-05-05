@@ -95,3 +95,16 @@ Organización de contratación que maneja bases de datos sobre sus principales c
 * Datos Contratos
 
 Con esta estrutura y los datos origen construiremos el modelo de base de datos objeto de analisis apra el proyecto.
+
+### CREACION DE LA BASE DE DATOS Y CONFIGURACION DE MOTOR DE BASE DE DATOS
+
+para la creacion de la base de datos se utilizo infraestructura de CLOUD , se utilizaron los servicios de la nube de AZURE para aprobisionar los recursos necesarios para cargar una base de datos y poder utilizar la misma base de datos para el equipo de trabajo del grupo1, para esto realizamos la creacion de una cuenta en Microsoft AZURE, luego se seleccion el recuros a utilizar que para este caso fue SQL Database
+
+
+luego de que se creo la base de datos se realizo el cargue de los datos de que se bajaron de la pagina:<https://www.datos.gov.co/Organismos-de-Control/CONTRATACION-DICIEMBRE-2018/ccgi-m8az>
+
+este cargue nos genero una tabla a la que llamamos contratos
+
+
+
+
