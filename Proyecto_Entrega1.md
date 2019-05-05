@@ -113,4 +113,26 @@ luego de que se creo la base de datos se realizo el cargue de los datos de que s
 este cargue nos genero una tabla a la que llamamos contratos  
 
 **TABLA CONTRATOS**
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/TablaCONTRATO.png)    
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/TablaCONTRATO.png)  
+
+Con el fin de llenar la tabla se crea la tabla empleados en donde se encuentran datos personales de los empleados de la compañia    
+**TABLA EMPLEADOS**  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/creacion%20de%20tabla%20empleados.png)  
+
+## CONTROL ID.AM-2: Software platforms and applications within the organization are inventoried  
+
+SOFTWARE   
+**DATA BASE** MICROSOFT SQL SERVER.     
+**Almacenamiento de datos**  Tamaño de almacenamiento máximo 250 GB    
+**NOMBRE DEL PROYECTO EN AZURE**proyectobdseguridad  
+**Estado** Disponible  
+**Ubicación**Este de EE. UU.  
+**Suscripción¨Evaluación gratuita**Evaluación gratuita  
+**Id. de suscripción**3eee5414-0dd6-439c-8434-86ce0788ba17  
+**Administrador del servidor**jomaarango  
+**Firewalls y redes virtuales**    
+NOMBRE DE REGLA all  
+IP INICIAL 12.0.0.0  
+IP FINAL   254.0.0.0  
+**Administrador de Active Directory**No configurado  
+
