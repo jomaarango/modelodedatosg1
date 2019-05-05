@@ -121,20 +121,24 @@ Con el fin de llenar la tabla se crea la tabla empleados en donde se encuentran 
 
 ## CONTROL ID.AM-2: Software platforms and applications within the organization are inventoried  
 
-SOFTWARE   
-**DATA BASE** MICROSOFT SQL SERVER.     
-**Almacenamiento de datos**  Tamaño de almacenamiento máximo 250 GB    
-**NOMBRE DEL PROYECTO EN AZURE**proyectobdseguridad  
-**Estado** Disponible  
-**Ubicación**Este de EE. UU.  
-**Suscripción¨Evaluación gratuita**Evaluación gratuita  
-**Id. de suscripción**3eee5414-0dd6-439c-8434-86ce0788ba17  
-**Administrador del servidor**jomaarango  
-**Firewalls y redes virtuales**    
-NOMBRE DE REGLA all  
-IP INICIAL 12.0.0.0  
-IP FINAL   254.0.0.0  
-**Administrador de Active Directory**No configurado  
+
+**INVENTARIO DE SOFTWARE Y APLICACIONES  UTILIZADO
+
+NOMBRE DEL RECURSO | DESCRIPCION |
+| ---------- | ---------- |
+|**Azure SQL Database** |Azure SQL Database es un servicio de base de datos relacional (DBaaS) de uso general basado en la última versión estable del Motor de base de datos de Microsoft SQL Server. SQL Database es una base de datos en la nube de alto rendimiento, confiable y segura que puede usar para compilar aplicaciones y sitios web controlados por datos en el lenguaje de programación que prefiera, sin necesidad de administrar la infraestructura.| 
+|**Almacenamiento de datos** |  Tamaño de almacenamiento máximo 250 GB|    
+|**NOMBRE DEL PROYECTO EN AZURE**|proyectobdseguridad| 
+|**Plan de tarifa**|10 DTU el producto de Azure SQL Database se licenciaba mediante planes basados DTU (o eDTU). Básicamente esto significa que, según el plan que elijamos, obtendremos un dimensionamiento que nos asegura un rendimiento determinado. DTU es el acrónimo en inglés de Database Transaction Units (la “e” de eDTU, indica el término “elastic”)|
+|**Estado del servicio en el cloud de azure**| Disponible|  
+|**Ubicación del sitio de procesamiento y almacenamietos de los datos**|Este de EE. UU.| 
+|**Tipo de Suscripción**|Evaluación gratuita|  
+|**Id. de suscripción**|3eee5414-0dd6-439c-8434-86ce0788ba17|  
+|**Administrador del servidor en el cluod**|jomaarango|  
+|**Reglas de Firewalls y redes virtuales**|NOMBRE DE REGLA all  IP INICIAL 12.0.0.0  IP FINAL   254.0.0.0|  
+|**Integracion con Active Directory**|No configurado|
+|**Clientes utilizados para gestion de SQL Database**|NAVICAT FOR SQL VERSION 12.1.20|
+
 
 
 ### ID.AM-6: Cybersecurity roles and responsibilities are established
