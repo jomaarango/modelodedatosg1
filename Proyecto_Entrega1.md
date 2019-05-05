@@ -98,7 +98,7 @@ Con esta estrutura y los datos origen construiremos el modelo de base de datos o
 
 ### CREACION DE LA BASE DE DATOS Y CONFIGURACION DE MOTOR DE BASE DE DATOS
 
-para la creacion de la base de datos se utilizo infraestructura de CLOUD , se utilizaron los servicios de la nube de AZURE para aprobisionar los recursos necesarios para cargar una base de datos y poder utilizar la misma base de datos para el equipo de trabajo del grupo1, para esto realizamos la creacion de una cuenta en Microsoft AZURE, luego se seleccion el recuros a utilizar que para este caso fue SQL Database
+Para la creacion de la base de datos se utilizo infraestructura de CLOUD , se utilizaron los servicios de la nube de AZURE para aprovisionar los recursos necesarios para cargar una base de datos y poder utilizar la misma base de datos para el equipo de trabajo del grupo1, para esto realizamos la creacion de una cuenta en Microsoft AZURE, luego se seleccion el recuros a utilizar que para este caso fue SQL Database
 
 **Recursos utilizados para la base de datos en AZURE**  
 **Motor de base de datos  Microsoft SQL Server**  
