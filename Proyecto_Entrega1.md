@@ -83,18 +83,26 @@ En relación con la organización dueña de los datos se tiene:
 | **Descripción datos**      | Reporte Consolidado de Contratación del mes de Diciembre de AÑO 2018 de las entidades públicas que audita la Contraloría General de Antioquia |
 | **URL ACCESO DATOS**       | <https://www.datos.gov.co/Organismos-de-Control/CONTRATACION-DICIEMBRE-2018/ccgi-m8az> |
 
+
 ### CONTEXTO ORGANIZACIÓN PROYECTO
-
-Para nuestro proyecto establecremos el siguiente contexto basado en los datos de origen:
-
-Organización de contratación que maneja bases de datos sobre sus principales contratistas, para lo cual se porpone un modelo de base de datos con la siguiente estructura:
-
-* Datos contratistas
-     + Datos de Ubicación 
-     + Datos Sensibles
-* Datos Contratos
-
-Con esta estrutura y los datos origen construiremos el modelo de base de datos objeto de analisis apra el proyecto.
+Para nuestro proyecto estableceremos el siguiente contexto basado en los datos de origen:  
+Organización de contratación que maneja bases de datos sobre sus principales contratistas, para lo cual se propone un modelo de base de datos con la siguiente estructura:  
+* Datos contratistas  
+     + Datos Personales  
+     + Datos Sensibles  
+* Datos Contratos  
+Con esta estructura y los datos origen construiremos el modelo de base de datos objeto de análisis para el proyecto.    
+La organización se encarga de administrar la planta de contratista de la ciudad Medellín, donde se lleva control de los avances de ejecución de los diferentes contratistas de la ciudad. Dentro de las herramientas operativas con las que cuenta para la realización de las actividades en la organización se tiene:  
+*  Aplicación Interna gestión Administrativa (Esta aplicación permite a los empleados de la organización ejecutar la gestión administrativa, seguimiento y control sobre los datos de los diferentes contratistas pertenecientes a la compañía).  
+* Aplicación Web (Esta aplicación permite a los contratistas la gestión de los datos de contrato, consultas de avances y seguimiento).  
+* Administración TI (Consiste en las diferentes funciones que se ejecuta desde el área de TI para el aprovisionamiento, mantenimiento, soporte y configuración de la infraestructura que soporta los procesos de la organización así:  
++ Sistema Core Organización    
+    +  Contratación  
++ Sistema de control de acceso  
++ Infraestructura  
+    + Comunicaciones  
+     + Servidores  
+     + Bases de datos)  
 
 ### CREACION DE LA BASE DE DATOS Y CONFIGURACION DE MOTOR DE BASE DE DATOS
 
