@@ -146,6 +146,7 @@ NOMBRE DEL RECURSO | DESCRIPCION |
 |**Reglas de Firewalls y redes virtuales**|NOMBRE DE REGLA all  IP INICIAL 12.0.0.0  IP FINAL   254.0.0.0|  
 |**Integracion con Active Directory**|No configurado|
 |**Clientes utilizados para gestion de SQL Database**|NAVICAT FOR SQL VERSION 12.1.20|
+|**Cifrado de datos**|Bases de datos en nube cifrada con cifrado de datos transparente (TDE) este control ayuda a proteger Azure SQL Database, la Instancia administrada de Azure SQL Database y Azure Data Warehouse frente a la amenaza de actividades malintencionadas. También realiza cifrado y descifrado de la base de datos en tiempo real, copias de seguridad asociadas y archivos de registro de transacciones en reposo sin necesidad de efectuar cambios en la aplicación. De forma predeterminada, TDE está habilitado para todas las bases de datos de Azure SQL| 
 
 ### ID.GV-3: Legal and regulatory requirements
 regarding cybersecurity
