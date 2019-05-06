@@ -112,11 +112,11 @@ Para la creacion de la base de datos se utilizo infraestructura de CLOUD , se ut
 **Motor de base de datos  Microsoft SQL Server**  
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/recursos_AZURE.png)    
 
-**Propiedades de la base de datos**  
+**Propiedades de la base de datos**    
 **Motor de base de datos  Microsoft SQL Server**  
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/PropiedadesBD.png)    
 
-**Cifrado en nube
+**Cifrado en nube**  
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/CIFRADO%20DE%20DATOS%20EN%20NUBE%20.png). 
 
 luego de que se creo la base de datos se realizo el cargue de los datos de que se bajaron de la pagina:  <https://www.datos.gov.co/Organismos-de-Control/CONTRATACION-DICIEMBRE-2018/ccgi-m8az>
@@ -150,6 +150,7 @@ NOMBRE DEL RECURSO | DESCRIPCION |
 |**Integracion con Active Directory**|No configurado|
 |**Clientes utilizados para gestion de SQL Database**|NAVICAT FOR SQL VERSION 12.1.20|
 |**Cifrado de datos**|Bases de datos en nube cifrada con cifrado de datos transparente (TDE) este control ayuda a proteger Azure SQL Database, la Instancia administrada de Azure SQL Database y Azure Data Warehouse frente a la amenaza de actividades malintencionadas. También realiza cifrado y descifrado de la base de datos en tiempo real, copias de seguridad asociadas y archivos de registro de transacciones en reposo sin necesidad de efectuar cambios en la aplicación. De forma predeterminada, TDE está habilitado para todas las bases de datos de Azure SQL| 
+|**Servidor de aplicacion**|windows server R12 Aplicacion Desrrollada en .net|
 
 
 **ID.AM-3: Organizational communications and dataflows are mapped.**  
