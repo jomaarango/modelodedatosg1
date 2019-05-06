@@ -64,7 +64,7 @@ Seleccionamos la base datos en  www.datos.gov.co,  El sistema genera un fichero 
 
 ### CRITERIOS DE SELECCIÓN 
 
-Con el objetivo de tener un contexto amplio que permita definir/implementar/revisar el marco de la implementación de la NIST, se definieron 4 criterios para la seleccion de la base de datos:
+Con el objetivo de tener un contexto amplio que permita definir,implementar,revisar el marco de la implementación de la NIST, se definieron 4 criterios para la seleccion de la base de datos:
 
 * La base de datos debe contener datos personales, estos hacen  relación a datos que se pueden asociar directamente a una persona y permite su identificación directa, entre ellos tenemos la dirección de residencia, dirección laboral, telefono personal. El tratamiento de los datos personales esta regulado bajo la legislación colombiana con la ley 1581 de 2012 y su decreto reglamentario 1377 de 2013. 
 * La base de datos debe contener datos semiprivados, se caracterizan por interesar no sólo a su titular sino a cierto sector o grupo de personas, o a la sociedad en general, como el dato financiero y crediticio.
@@ -108,7 +108,7 @@ La organización se encarga de administrar la planta de contratista de la ciudad
 + Infraestructura  
     + Comunicaciones  
      + Servidores  
-     + Bases de datos)  
+     + Bases de datos  
 
 ### CREACION DE LA BASE DE DATOS Y CONFIGURACION DE MOTOR DE BASE DE DATOS
 
@@ -177,7 +177,7 @@ Dentro del contexto se tiene los siguientes actores:
 3. Administración de TI  
     3.1 Administración BD  
           3.2 SP Bases de datos  
-          3.3 Triggers  
+          3.3 Triggers    
   
   
   
