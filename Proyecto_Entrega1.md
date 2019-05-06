@@ -126,8 +126,10 @@ este cargue nos genero una tabla a la que llamamos contratos
 **TABLA CONTRATOS**
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/TablaCONTRATO.png)  
 
-Con el fin de llenar la tabla se crea la tabla empleados en donde se encuentran datos personales de los empleados de la compañia    
-**TABLA EMPLEADOS**  
+Con el fin de llenar las tablas necesarias para la organizacion  se crea las tablas CONTRATACION, CONTROL_ACCESO, DATOS_CONTRATISTAS, EMPLEADOS, SALARIOS, 
+
+**TABLA EMPLEADOS**
+**En esta tabla se encuentran datos personales de los empleados de la compañia**    
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/creacion%20de%20tabla%20empleados.png)  
 
 ## CONTROL ID.AM-2: Software platforms and applications within the organization are inventoried  
