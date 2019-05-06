@@ -46,7 +46,13 @@ El objetivo de este documento es definir claramente los límites Framework NIST 
 
 ## Alcance ##
 
-Este proyecto es el primer paso hacia el concepto global. En este caso. El proyecto se centra en implementar el Framework NIST y sus 2 categorías primarias. que son Identificar (Identify) y Proteger (Protect). 
+Este proyecto es el primer paso hacia el concepto global. En este caso. El proyecto se centra en implementar el Framework NIST y su primer categoría Identificar (Identify) 
+* ID.AM-2
+* ID.AM-3
+* ID.AM-5
+* ID.AM-6
+* ID.GV-3
+* ID.GV-4. 
 
 • Identificar: Desarrollar la comprensión organizacional para administrar el riesgo de ciberseguridad para sistemas, activos, datos y capacidades.
 
@@ -322,7 +328,8 @@ La organización cuenta con un proceso de gestión de riesgos, en donde se encue
 
 Se realiza la clasificación de los riesgos para identificar cuáles necesitan atención y corrección con mayor prioridad.  
 
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Clasificacio_riesgo.png) 
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Clasificacio_riesgo.PNG) 
+                    
 
 |CÓDIGO|RIESGO|PROBABILIDAD |IMPACTO |RESULTADO | 
 |------|---------------|---- |---- |--------------- | 
