@@ -193,7 +193,7 @@ Dentro del contexto se tiene los siguientes actores:
 
 La clasificación de la información en la base de datos se realiza según la información contenida en los campos de cada tabla en función de la confidencialidad, integridad, disponibilidad, requisitos legales aplicables, criticidad, divulgación, modificación	y valor para la organización. 
 
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/IDAM5.png)  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/IDAM5.PNG)  
 
 * Requisitos legales aplicables; hace referencia a la aplicabilidad de leyes o normas que protegen la información (1581, 052, 042, 1273).
 
