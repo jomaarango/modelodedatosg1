@@ -138,7 +138,7 @@ Con el fin de llenar las tablas necesarias para la organizacion  se crea las tab
 ### CONTROL ID.AM-2: Software platforms and applications within the organization are inventoried  
 
 
-**INVENTARIO DE SOFTWARE Y APLICACIONES  UTILIZADO
+**INVENTARIO DE SOFTWARE Y APLICACIONES  UTILIZADO**  
 
 NOMBRE DEL RECURSO | DESCRIPCION |
 | ---------- | ---------- |
