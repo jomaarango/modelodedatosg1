@@ -147,6 +147,14 @@ NOMBRE DEL RECURSO | DESCRIPCION |
 |**Integracion con Active Directory**|No configurado|
 |**Clientes utilizados para gestion de SQL Database**|NAVICAT FOR SQL VERSION 12.1.20|
 
+### ID.GV-3: Legal and regulatory requirements
+regarding cybersecurity
+
+Dentro del contexto de la organizacion  se cuentan con regulacion para su cumplimiento como son:
+
+**Ley 1581 de 2012**
+La ley de protección de datos personales es una ley que complementa la regulación vigente para la protección del derecho fundamental que tienen todas las personas naturales a autorizar la información personal que es almacenada en bases de datos o archivos, así como su posterior actualización y rectificación. Esta ley se aplica a las bases de datos o archivos que contengan datos personales de personas naturales.
+
 
 
 ### ID.AM-6: Cybersecurity roles and responsibilities are established  
