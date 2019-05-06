@@ -305,4 +305,30 @@ La ley de protección de datos personales es una ley que complementa la regulaci
 **ISO 27001:2013**  
 El estándar ISO 27001 se relaciona como guía para poder gestionar la seguridad en la organización, a nivel de empresas privadas que se relacionan con entes del estado generalmente siempre exigen estar a lineados y aplicar las mejores prácticas de seguridad de la información orientados a la protección de la información. Dado que a nivel gobierno se tiene el MSPI (Modelo de seguridad y privacidad de la información) muy orientado a la ISO 27001, y en algunos casos exigible para procesos de continuidad, auditoria entre otros. Es importante que en la organizaciones se establezcan los sistemas de gestión de seguridad de la información que permitan un adecuado control de la seguridad y un contexto real del tratamiento del riesgo a nivel de seguridad.  
 
+
  ### ID.GV-4: Governance and risk management processes address cybersecurity risks
+La organización cuenta con un proceso de gestión de riesgos, en donde se encuentran  definidos los siguientes
+
+|CÓDIGO|RIESGO|DESCRIPCIÓN| 
+|------|------|-----------------------------------| 
+|RS-01|DEFINICIÓN DE ROL INADECUADA |El rol de monitoreo borro accidentalmente  data en la base datos de Contratos, impactando los procesos de la organizacion|  
+|RS-02|FALTA DE CONCIENCIA DE SEGURIDAD |El administrador de la base datos de Contratos envió un correo a un destinatario equivocado con las credenciales  de acceso de la base datos.|
+|RS-03|FALTA DE CAPACITACIÓN DE TRABAJO|"El administrador de la base datos de contratos no tiene la capitación en la última versión de SQL server| al momento de migrar la base de datos genera indisponibilidad.|"
+|RS-04|FALTA DE MECANISMOS DE MONITOREO |El motor de base datos de SQL server en donde se encuentra la Base datos de Contratos no tiene un Rol de monitoreo. El área de monitoreo de la empresa no puede monitorear la base datos.|
+|RS-05|PROTECCIÓN INADECUADA DE TRÁFICO SENSIBLE|La Red en donde se encuentra El motor de base datos de SQL server y que contiene la Base datos de contratos fue interceptada por ciberdelincuentes y robaron información sensible.| 
+|RS-06 |ADMINISTRACIÓN DEFICIENTE DE CONTRASEÑA |El administrador de la base datos de Contratos guarda las credenciales de acceso en archivos de texto plano en el servidor.|
+|RS-08|FALTA DE PROTECCIÓN CONTRA VIRUS Y CÓDIGO MALICIOSO |El servidor de la Base datos no tiene instalada una solución de antivirus|
+|RS-09 |CONTROL DE ACCESO  INADECUADO DE BASE DE DATOS |Todos los usuarios del motor de Base datos de SQL tienen acceso a todos los roles,  cualquier usuario podría borrar una tabla de la BD de Contrato.| 
+
+Se realiza la clasificación de los riesgos para identificar cuáles necesitan atención y corrección con mayor prioridad.
+
+|CÓDIGO|RIESGO|PROBABILIDAD |IMPACTO |RESULTADO | 
+|------|---------------|---- |---- |--------------- | 
+|RS-01|DEFINICIÓN DE ROL INADECUADA |5|3|15 (Alto)|
+|RS-02|FALTA DE CONCIENCIA DE SEGURIDAD |3|4|12 (Alto)|
+|RS-03|FALTA DE CAPACITACIÓN DE TRABAJO|1|5|5 (Moderado)|
+|RS-04|FALTA DE MECANISMOS DE MONITOREO |5|3|15 (Alto)|
+|RS-05|PROTECCIÓN INADECUADA DE TRÁFICO SENSIBLE|3|5|15 (Alto)|
+|RS-06 |ADMINISTRACIÓN DEFICIENTE DE CONTRASEÑA |4|3|12 (Alto)|
+|RS-08|FALTA DE PROTECCIÓN CONTRA VIRUS Y CÓDIGO MALICIOSO |1|4|4 (Bajo)|
+|RS-09 |CONTROL INADECUADO DE BASE DE DATOS |3|5|5 (Moderado)|
