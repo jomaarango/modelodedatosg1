@@ -304,7 +304,7 @@ La ley de protección de datos personales es una ley que complementa la regulaci
     
 **ISO 27001:2013**  
 El estándar ISO 27001 se relaciona como guía para poder gestionar la seguridad en la organización, a nivel de empresas privadas que se relacionan con entes del estado generalmente siempre exigen estar a lineados y aplicar las mejores prácticas de seguridad de la información orientados a la protección de la información. Dado que a nivel gobierno se tiene el MSPI (Modelo de seguridad y privacidad de la información) muy orientado a la ISO 27001, y en algunos casos exigible para procesos de continuidad, auditoria entre otros. Es importante que en la organizaciones se establezcan los sistemas de gestión de seguridad de la información que permitan un adecuado control de la seguridad y un contexto real del tratamiento del riesgo a nivel de seguridad.  
-
+ 
 
  ### ID.GV-4: Governance and risk management processes address cybersecurity risks
 La organización cuenta con un proceso de gestión de riesgos, en donde se encuentran  definidos los siguientes
@@ -320,7 +320,9 @@ La organización cuenta con un proceso de gestión de riesgos, en donde se encue
 |RS-08|FALTA DE PROTECCIÓN CONTRA VIRUS Y CÓDIGO MALICIOSO |El servidor de la Base datos no tiene instalada una solución de antivirus|
 |RS-09 |CONTROL DE ACCESO  INADECUADO DE BASE DE DATOS |Todos los usuarios del motor de Base datos de SQL tienen acceso a todos los roles,  cualquier usuario podría borrar una tabla de la BD de Contrato.| 
 
-Se realiza la clasificación de los riesgos para identificar cuáles necesitan atención y corrección con mayor prioridad.
+Se realiza la clasificación de los riesgos para identificar cuáles necesitan atención y corrección con mayor prioridad.  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Clasificacio_riesgo.png) 
 
 |CÓDIGO|RIESGO|PROBABILIDAD |IMPACTO |RESULTADO | 
 |------|---------------|---- |---- |--------------- | 
