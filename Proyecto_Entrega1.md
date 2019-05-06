@@ -183,21 +183,6 @@ Dentro del contexto se tiene los siguientes actores:
 
 
 
-
-
-
-
-
-### ID.GV-3: Legal and regulatory requirements
-regarding cybersecurity
-
-Dentro del contexto de la organizacion  se cuentan con regulacion para su cumplimiento como son:
-
-**Ley 1581 de 2012**
-La ley de protección de datos personales es una ley que complementa la regulación vigente para la protección del derecho fundamental que tienen todas las personas naturales a autorizar la información personal que es almacenada en bases de datos o archivos, así como su posterior actualización y rectificación. Esta ley se aplica a las bases de datos o archivos que contengan datos personales de personas naturales.
-
-
-
 ### ID.AM-6: Cybersecurity roles and responsibilities are established  
 
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Roles.png) 
@@ -226,7 +211,6 @@ La tabla siguiente muestra los roles fijos de base de datos y sus atribuciones. 
 
 
 
-
 ## CONTROL ID.AM-5: Resources are prioritized based on their classification, criticality, and business value
 
 La clasificación de la información en la base de datos se realiza según la información contenida en los campos de cada tabla en función de la confidencialidad, integridad, disponibilidad, requisitos legales aplicables, criticidad, divulgación, modificación	y valor para la organización. 
@@ -245,3 +229,17 @@ La clasificación de la información en la base de datos se realiza según la in
 Modificación; evalúa el impacto en los objetivos estratégicos de la organización cuando se modifica la información contenida en la base de datos, se determina de acuerdo a la siguiente escala 
    * Modificable       (M)    con un  Impacto Bajo
    * No Modificable  (NM) con un Impacto Alto
+
+
+
+### ID.GV-3: Legal and regulatory requirements regarding cybersecurity
+
+Dentro del contexto de la organizacion  se cuentan con regulacion para su cumplimiento como son:  
+
+**Ley 1581 de 2012**  
+La ley de protección de datos personales es una ley que complementa la regulación vigente para la protección del derecho fundamental que tienen todas las personas naturales a autorizar la información personal que es almacenada en bases de datos o archivos, así como su posterior actualización y rectificación. Esta ley se aplica a las bases de datos o archivos que contengan datos personales de personas naturales.  
+  
+    
+**ISO 27001:2013**  
+El estándar ISO 27001 se relaciona como guía para poder gestionar la seguridad en la organización, a nivel de empresas privadas que se relacionan con entes del estado generalmente siempre exigen estar a lineados y aplicar las mejores prácticas de seguridad de la información orientados a la protección de la información. Dado que a nivel gobierno se tiene el MSPI (Modelo de seguridad y privacidad de la información) muy orientado a la ISO 27001, y en algunos casos exigible para procesos de continuidad, auditoria entre otros. Es importante que en la organizaciones se establezcan los sistemas de gestión de seguridad de la información que permitan un adecuado control de la seguridad y un contexto real del tratamiento del riesgo a nivel de seguridad.  
+
