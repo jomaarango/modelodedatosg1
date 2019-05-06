@@ -148,6 +148,43 @@ NOMBRE DEL RECURSO | DESCRIPCION |
 |**Clientes utilizados para gestion de SQL Database**|NAVICAT FOR SQL VERSION 12.1.20|
 |**Cifrado de datos**|Bases de datos en nube cifrada con cifrado de datos transparente (TDE) este control ayuda a proteger Azure SQL Database, la Instancia administrada de Azure SQL Database y Azure Data Warehouse frente a la amenaza de actividades malintencionadas. También realiza cifrado y descifrado de la base de datos en tiempo real, copias de seguridad asociadas y archivos de registro de transacciones en reposo sin necesidad de efectuar cambios en la aplicación. De forma predeterminada, TDE está habilitado para todas las bases de datos de Azure SQL| 
 
+
+**ID.AM-3: Organizational communications and dataflows are mapped.**  
+
+En relación con la base de datos de nuestro proyecto evidenciamos y mapeamos los siguientes flujos de datos relacionados al tratamiento de la información. Dentro de nuestro contexto se evidencia una base de datos de una empresa que realiza seguimiento y administración a contratos y contratistas contratación en la cual se valida el siguiente diagrama de flujo de datos principal:    
+  
+  
+Dentro del contexto se tiene los siguientes actores:  
+1. Módulos de Aplicación  
+    1.1 Aplicación Core Contratación  
+    1.2 Control de acceso Físico  
+2. Página Web  
+3. Administración de TI  
+    3.1 Administración BD  
+          3.2 SP Bases de datos  
+          3.3 Triggers  
+  
+  
+  
+**Diagrama principal de Flujo de datos en relación con el contexto de la organización:**    
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Contratacion_DFD.JPG)  
+
+**Flujo de datos Principal**  
+
+| ACTOR PRINCIPAL | TABLAS | FLUJO DE DATOS | DESCRIPCIÓN |  
+| ---------- | ---------- | ---------- | ---------- |
+|**Aplicación Core** | CONTRATACIÓN, DATOS_CONTRATISTAS, EMPLEADO, SALARIOS | Lectura, Escritura, Modificación, Eliminación |  Desde la aplicación Core de la organización se realiza la administración completa de la información relacionada con el seguimiento a la contratación. |
+|**Control acceso físico** | CONTROL_ACCESO | Lectura, Escritura, Modificación | Desde la aplicación de control de acceso físico, se almacena y registra lo relacionados con el registro de los contratistas al ingresar a las instalaciones de la organización, donde se toman sus datos biométricos para garantizar la identidad de las personas que ingresan a las oficinas. |
+|**Pagina Web** | CONTRATACIÓN, DATOS_CONTRATISTAS | Lectura, Escritura, Modificación | Desde la aplicación web, los contratistas pueden realizar las respectivas consultas, incluir datos y modificar los existentes relacionados con los datos personales y contratos a los cuales la compañía realiza la gestión. |
+|**Administración de TI** | DDL | Lectura, Escritura, Modificación, Eliminación | Desde la administración de TI se estiman diferentes procesos relacionados a las bases de datos entre ellos: Creación, modificación y mantenimiento de Bases de datos. Ejecución de triggers para procesos de actualización de data cuando la aplicación realiza ciertos comportamientos. Procedimientos almacenados orientados a la inserción de información masiva de datos, cuando se requiere documentar contratos masivos |
+
+
+
+
+
+
+
+
 ### ID.GV-3: Legal and regulatory requirements
 regarding cybersecurity
 
