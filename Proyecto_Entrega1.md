@@ -189,6 +189,26 @@ Dentro del contexto se tiene los siguientes actores:
 
 
 
+## CONTROL ID.AM-5: Resources are prioritized based on their classification, criticality, and business value
+
+La clasificación de la información en la base de datos se realiza según la información contenida en los campos de cada tabla en función de la confidencialidad, integridad, disponibilidad, requisitos legales aplicables, criticidad, divulgación, modificación	y valor para la organización. 
+
+* Requisitos legales aplicables; hace referencia a la aplicabilidad de leyes o normas que protegen la información (1581, 052, 042, 1273).
+
+* Criticidad; considera la información contenida en el campo como critica cuando es personal, semiprivada o sensible(C) y cuando la información es publica es considerada como no critica(NC). 
+
+* Divulgación; se tienen 2 escenarios posibles en el primero la divulgación no causa peligro para la organización a corto plazo (D) y en el segundo escenario la divulgación tiene un impacto serio en los objetivos estratégicos a largo plazo (ND).
+
+* Valor para la organización se determina de acuerdo a la siguiente escala economica 
+   * Bajo    (B)     0<x349.999
+   * Medio (M)    350.000<x<4.499.999
+   * Alto    (A)     5.500.000<x< 50.000.000
+
+Modificación; evalúa el impacto en los objetivos estratégicos de la organización cuando se modifica la información contenida en la base de datos, se determina de acuerdo a la siguiente escala 
+   * Modificable       (M)    con un  Impacto Bajo
+   * No Modificable  (NM) con un Impacto Alto
+
+
 ### ID.AM-6: Cybersecurity roles and responsibilities are established  
 
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Roles.png) 
@@ -217,24 +237,8 @@ La tabla siguiente muestra los roles fijos de base de datos y sus atribuciones. 
 
 
 
-## CONTROL ID.AM-5: Resources are prioritized based on their classification, criticality, and business value
 
-La clasificación de la información en la base de datos se realiza según la información contenida en los campos de cada tabla en función de la confidencialidad, integridad, disponibilidad, requisitos legales aplicables, criticidad, divulgación, modificación	y valor para la organización. 
 
-* Requisitos legales aplicables; hace referencia a la aplicabilidad de leyes o normas que protegen la información (1581, 052, 042, 1273).
-
-* Criticidad; considera la información contenida en el campo como critica cuando es personal, semiprivada o sensible(C) y cuando la información es publica es considerada como no critica(NC). 
-
-* Divulgación; se tienen 2 escenarios posibles en el primero la divulgación no causa peligro para la organización a corto plazo (D) y en el segundo escenario la divulgación tiene un impacto serio en los objetivos estratégicos a largo plazo (ND).
-
-* Valor para la organización se determina de acuerdo a la siguiente escala economica 
-   * Bajo    (B)     0<x349.999
-   * Medio (M)    350.000<x<4.499.999
-   * Alto    (A)     5.500.000<x< 50.000.000
-
-Modificación; evalúa el impacto en los objetivos estratégicos de la organización cuando se modifica la información contenida en la base de datos, se determina de acuerdo a la siguiente escala 
-   * Modificable       (M)    con un  Impacto Bajo
-   * No Modificable  (NM) con un Impacto Alto
 
 
 
