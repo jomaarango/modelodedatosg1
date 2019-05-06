@@ -193,6 +193,8 @@ Dentro del contexto se tiene los siguientes actores:
 
 La clasificación de la información en la base de datos se realiza según la información contenida en los campos de cada tabla en función de la confidencialidad, integridad, disponibilidad, requisitos legales aplicables, criticidad, divulgación, modificación	y valor para la organización. 
 
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/IDAM5.png)  
+
 * Requisitos legales aplicables; hace referencia a la aplicabilidad de leyes o normas que protegen la información (1581, 052, 042, 1273).
 
 * Criticidad; considera la información contenida en el campo como critica cuando es personal, semiprivada o sensible(C) y cuando la información es publica es considerada como no critica(NC). 
@@ -207,6 +209,59 @@ La clasificación de la información en la base de datos se realiza según la in
 Modificación; evalúa el impacto en los objetivos estratégicos de la organización cuando se modifica la información contenida en la base de datos, se determina de acuerdo a la siguiente escala 
    * Modificable       (M)    con un  Impacto Bajo
    * No Modificable  (NM) con un Impacto Alto
+
+
+|TABLA|CAMPO|Tipo|Requisitos Legales|Criticidad|Divulgacion|Modificacion|Valor|
+|-----|-----|----|------------------|----------|-----------|------------|-----|
+|CONTRATOS|SUJETO DE CONTROL|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|EVENTO|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|TIPO DE REGISTRO|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|CÓDIGO CONTRATO|Texto simple|N/A|NC|ND|NM|M|
+|CONTRATOS|IDENTIFICACIÓN CONTRATISTA|Texto simple|N/A|C |D |M |B|
+|CONTRATOS|NOMBRE CONTRATISTA|Texto simple|N/A|C |D |M |B|
+|CONTRATOS|CÓDIGO DEL PROYECTO|Texto simple|N/A|NC|ND|NM|M|
+|CONTRATOS|NOMBRE DEL PROYECTO|Texto simple|N/A|NC|ND|NM|M|
+|CONTRATOS|SECTOR DEL PROYECTO|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|VALOR DEL PROYECTO|Texto simple|1581|NC|ND|NM|A|
+|CONTRATOS|VALOR EJECUTADO DEL PROYECTO|Texto simple|1581|NC|ND|NM|A|
+|CONTRATOS|OBJETO DEL CONTRATO|Texto simple|N/A|NC|ND|NM|M|
+|CONTRATOS|FECHA SUSCRIPCIÓN|Texto simple|N/A|NC|ND|NM|M|
+|CONTRATOS|FECHA INICIO|Texto simple|N/A|NC|ND|NM|M|
+|CONTRATOS|PLAZO ESTIMADO|Número|N/A|NC|ND|NM|M|
+|CONTRATOS|VALOR CONTRATO|Texto simple|1581|NC|D |NM|A|
+|CONTRATOS|PROCESO DE CONTRATACIÓN|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|TIPOLOGÍA|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|IDENTIFICACIÓN INTERVENTOR|Número|N/A|NC|D |NM|B|
+|CONTRATOS|NOMBRE DEL INTERVENTOR|Texto simple|N/A|C |D |NM|B|
+|CONTRATOS|TIPO INTERVENTOR|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|No CONTRATO INTERVENTOR|Texto simple|N/A|NC|D |M |B|
+|CONTRATOS|DISPONIBILIDADES PRESUPUESTALES|Texto simple|N/A|NC|D |M |A|
+|CONTRATOS|REGISTROS PRESUPUESTALES|Número|N/A|NC|D |M |A|
+|COTROL_ACCESO|IDENTIFICACIÓN CONTRATISTA|Texto simple|1581|C |D |NM|B|
+|COTROL_ACCESO|HUELLA|Texto simple|1581|C |D |NM|B|
+|DATOS_CONTRATISTAS|IDENTIFICACIÓN CONTRATISTA|Texto simple|1581|C |ND|NM|M|
+|DATOS_CONTRATISTAS|DIRECCION CONTRATISTA|Texto simple|1581|C |ND|NM|M|
+|DATOS_CONTRATISTAS|TELEFONO CONTRATISTA|Texto simple|1581|C |ND|NM|M|
+|DATOS_CONTRATISTAS|CELULAR CONTRATISTA|Texto simple|1581|C |ND|NM|M|
+|DATOS_CONTRATISTAS|CORREO CONTRATISTA|Texto simple|1581|C |ND|NM|M|
+|DATOS_CONTRATISTAS|NOMBRE CONTRATISTA|Texto simple|1581|C |ND|NM|M|
+|EMPLEADOS|NOMBRE|Texto simple|1581|NC|D |NM|B|
+|EMPLEADOS|APELLIDO|Texto simple|1581|NC|D |NM|B|
+|EMPLEADOS|TIPO DE DOCUMENTO|Texto simple|1581|NC|D |NM|B|
+|EMPLEADOS|IDENTIFICACION|Texto simple|1581|C |D |NM|B|
+|EMPLEADOS|FECHA DE NACIMIENTO|Texto simple|1581|C |D |NM|B|
+|SALARIOS|SALARIO DEVENGADO|Texto simple|1581|C |ND|NM|M|
+|SALARIOS|DEDUCCIONES|Texto simple|1581|C |ND|NM|M|
+|SALARIOS|PRIMAS EXTRAS|Texto simple|1581|C |ND|NM|M|
+|SALARIOS|BONO DE MOVILIDAD|Texto simple|1581|C |ND|NM|M|
+|SALARIOS|COMISIONES|Texto simple|1581|C |ND|NM|M|
+|SALARIOS|TIPO DE DOCUMENTO|Texto simple|1581|NC|D |NM|B|
+|SALARIOS|IDENTIFICACION|Texto simple|1581|C |D |NM|B|
+|SALARIOS|NOMBRE |Texto simple|1581|NC|D |NM|B|
+|SALARIOS|APELLIDO|Texto simple|1581|NC|D |NM|B|
+
+
+
 
 
 ### ID.AM-6: Cybersecurity roles and responsibilities are established  
