@@ -110,11 +110,14 @@ Para la creacion de la base de datos se utilizo infraestructura de CLOUD , se ut
 
 **Recursos utilizados para la base de datos en AZURE**  
 **Motor de base de datos  Microsoft SQL Server**  
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/recursos_AZURE.png)  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/recursos_AZURE.png)    
 
 **Propiedades de la base de datos**  
 **Motor de base de datos  Microsoft SQL Server**  
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/PropiedadesBD.png)  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/PropiedadesBD.png)    
+
+**Cifrado en nube
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/CIFRADO%20DE%20DATOS%20EN%20NUBE%20.png). 
 
 luego de que se creo la base de datos se realizo el cargue de los datos de que se bajaron de la pagina:  <https://www.datos.gov.co/Organismos-de-Control/CONTRATACION-DICIEMBRE-2018/ccgi-m8az>
 
