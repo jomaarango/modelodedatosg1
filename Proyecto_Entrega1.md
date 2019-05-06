@@ -283,10 +283,7 @@ La tabla siguiente muestra los roles fijos de base de datos y sus atribuciones. 
 | **db_datawriter**	| Los miembros del rol fijo de base de datos db_datawriter pueden agregar, eliminar o cambiar datos en todas las tablas de usuario.
 | **db_datareader**	| Los miembros del rol fijo de base de datos db_datareader pueden leer todos los datos de todas las tablas de usuario.
 | **público**	| Cada inicio de sesión de SQL Server pertenece a la función de servidor público. Cuando a un servidor principal no se le han otorgado o denegado permisos específicos sobre un objeto asegurable, el usuario hereda los permisos otorgados al público sobre ese objeto.  
-
-| NOMBRE DE ROL  | DESCRIPCIÓN       |
-| ---------- | ---------- |
-| **CONSULTA_CONTRATOS**    | Los miembros del rol fijo de base de datos pueden hacer diferentes consultas |
+| **CONSULTA_CONTRATOS**| Los miembros del rol fijo de base de datos pueden hacer consultas sobre la tabla contratos |
 
 
 
