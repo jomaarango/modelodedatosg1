@@ -135,7 +135,7 @@ Con el fin de llenar las tablas necesarias para la organizacion  se crea las tab
 **En esta tabla se encuentran datos personales de los empleados de la compañia**    
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/creacion%20de%20tabla%20empleados.png)  
 
-## CONTROL ID.AM-2: Software platforms and applications within the organization are inventoried  
+### CONTROL ID.AM-2: Software platforms and applications within the organization are inventoried  
 
 
 **INVENTARIO DE SOFTWARE Y APLICACIONES  UTILIZADO
@@ -158,7 +158,7 @@ NOMBRE DEL RECURSO | DESCRIPCION |
 |**Servidor de aplicacion**|windows server R12 Aplicacion Desrrollada en .net|
 
 
-**ID.AM-3: Organizational communications and dataflows are mapped.**  
+### ID.AM-3: Organizational communications and dataflows are mapped.**  
 
 En relación con la base de datos de nuestro proyecto evidenciamos y mapeamos los siguientes flujos de datos relacionados al tratamiento de la información. Dentro de nuestro contexto se evidencia una base de datos de una empresa que realiza seguimiento y administración a contratos y contratistas contratación en la cual se valida el siguiente diagrama de flujo de datos principal:    
   
@@ -189,7 +189,7 @@ Dentro del contexto se tiene los siguientes actores:
 
 
 
-## CONTROL ID.AM-5: Resources are prioritized based on their classification, criticality, and business value
+### CONTROL ID.AM-5: Resources are prioritized based on their classification, criticality, and business value
 
 La clasificación de la información en la base de datos se realiza según la información contenida en los campos de cada tabla en función de la confidencialidad, integridad, disponibilidad, requisitos legales aplicables, criticidad, divulgación, modificación	y valor para la organización. 
 
@@ -253,3 +253,4 @@ La ley de protección de datos personales es una ley que complementa la regulaci
 **ISO 27001:2013**  
 El estándar ISO 27001 se relaciona como guía para poder gestionar la seguridad en la organización, a nivel de empresas privadas que se relacionan con entes del estado generalmente siempre exigen estar a lineados y aplicar las mejores prácticas de seguridad de la información orientados a la protección de la información. Dado que a nivel gobierno se tiene el MSPI (Modelo de seguridad y privacidad de la información) muy orientado a la ISO 27001, y en algunos casos exigible para procesos de continuidad, auditoria entre otros. Es importante que en la organizaciones se establezcan los sistemas de gestión de seguridad de la información que permitan un adecuado control de la seguridad y un contexto real del tratamiento del riesgo a nivel de seguridad.  
 
+ ### ID.GV-4: Governance and risk management processes address cybersecurity risks
