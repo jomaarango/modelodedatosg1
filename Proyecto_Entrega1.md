@@ -164,7 +164,7 @@ NOMBRE DEL RECURSO | DESCRIPCION |
 |**Servidor de aplicacion**|windows server R12 Aplicacion Desrrollada en .net|
 
 
-### ID.AM-3: Organizational communications and dataflows are mapped.**  
+### CONTROL ID.AM-3: Organizational communications and dataflows are mapped.**  
 
 En relación con la base de datos de nuestro proyecto evidenciamos y mapeamos los siguientes flujos de datos relacionados al tratamiento de la información. Dentro de nuestro contexto se evidencia una base de datos de una empresa que realiza seguimiento y administración a contratos y contratistas contratación en la cual se valida el siguiente diagrama de flujo de datos principal:    
   
@@ -270,7 +270,7 @@ Modificación; evalúa el impacto en los objetivos estratégicos de la organizac
 
 
 
-### ID.AM-6: Cybersecurity roles and responsibilities are established  
+### CONTROL ID.AM-6: Cybersecurity roles and responsibilities are established  
 
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Roles.png) 
 
@@ -300,7 +300,7 @@ La tabla siguiente muestra los roles fijos de base de datos y sus atribuciones. 
 
 
 
-### ID.GV-3: Legal and regulatory requirements regarding cybersecurity
+### CONTROL ID.GV-3: Legal and regulatory requirements regarding cybersecurity
 
 Dentro del contexto de la organizacion  se cuentan con regulacion para su cumplimiento como son:  
 
@@ -312,7 +312,7 @@ La ley de protección de datos personales es una ley que complementa la regulaci
 El estándar ISO 27001 se relaciona como guía para poder gestionar la seguridad en la organización, a nivel de empresas privadas que se relacionan con entes del estado generalmente siempre exigen estar a lineados y aplicar las mejores prácticas de seguridad de la información orientados a la protección de la información. Dado que a nivel gobierno se tiene el MSPI (Modelo de seguridad y privacidad de la información) muy orientado a la ISO 27001, y en algunos casos exigible para procesos de continuidad, auditoria entre otros. Es importante que en la organizaciones se establezcan los sistemas de gestión de seguridad de la información que permitan un adecuado control de la seguridad y un contexto real del tratamiento del riesgo a nivel de seguridad.  
  
 
- ### ID.GV-4: Governance and risk management processes address cybersecurity risks
+ ### CONTROL ID.GV-4: Governance and risk management processes address cybersecurity risks
 La organización cuenta con un proceso de gestión de riesgos, en donde se encuentran  definidos los siguientes
 
 |CÓDIGO|RIESGO|DESCRIPCIÓN| 
