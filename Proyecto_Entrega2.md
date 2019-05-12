@@ -67,6 +67,26 @@ Se realiza la validación de las vulnerabilidades asociadas a Microsoft SQL Azur
 
 
 ## ID.RA2 Cyber threat intelligence is received from information sharing forums and sources ##  
+En las revisiones del control se puede documentar que de acuerdo con las revisiones sobre el mismo se procede con la identificación de posibles vulnerabilidades sobre los servicios de nube para bases de datos obteniendo la vulnerabilidad:    
+**CVE-2016-2183 Detail**  
+**Impact**  
+  
+CVSS v3.0 Severity and Metrics:  
+  
+Base Score: 7.5 HIGH  
+Vector: AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N (V3 legend)    
+Impact Score: 3.6  
+Exploitability Score: 3.9  
+Attack Vector (AV): Network  
+Attack Complexity (AC): Low  
+Privileges Required (PR): None  
+User Interaction (UI): None  
+Scope (S): Unchanged  
+Confidentiality (C): High  
+Integrity (I): None  
+Availability (A): None  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/scanvulne.jpg)  
 
 ## ID.RA3 ##  
 
