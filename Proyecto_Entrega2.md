@@ -219,9 +219,65 @@ Cuando se usa TDE con SQL Database V12, SQL Database crea de forma automática e
 
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Cifrado-TDE.png)  
 
-##* PR.DS2 ##  
+## PR.DS-2 ## 
 
-## PR.DS3 ##  
+CONTROL PR.DS-2: Data-in-transit is protected
+
+Se realiza un escaneo del certificado SSL https://azure.microsoft.com, en donde se encuentra la base datos de la organización de contratos, mediante la herramienta https://www.ssllabs.com
+
+El Escaneo con Qualys SSL Lab, Muestra una calificación de A general, pero se identifica e informa que el recurso publicado acepta peticiones de cifrados débiles de TLS 1.1 Y TLS 1.0  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/1.SSLverificacion)  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/2.SSLverificacion)   
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/3.SSLverificacion) 
+
+## PR.DS-3 ##  
+
+##  PR.DS-3: ASSETS ARE FORMALLY MANAGED THROUGHOUT REMOVAL, TRANSFERS, AND DISPOSITION ##    
+
+La organización de contracción entienden por protección de datos todas aquellas medidas tomadas a nivel físico, técnico y jurídico para garantizar que la información de los Titulares como: personas naturales (proveedores, personal  de la organización de contratación empleados, ex empleados, entre otros) registrados en la base datos de la organización de contratación, esté segura de cualquier ataque o intento de acceder a ella por parte de personas no autorizadas, así como que su uso y conservación sea adecuado a la Finalidad establecida para la recolección de los Datos Personales, en todo su ciclo de vida.
+
+
+|Ciclo de vida de las bases datos de la organización de contratación en diferentes escenarios|
+| -----|
+
+|Seguridad Cuando se crean las bases datos SQL Server en la nube Azure.|
+| -----|
+
+| **N°** | **Guia** |
+| -------|-------|
+|1.Seguridad Cuando se crean las bases datos SQL Server en la nube Azure.|• **Control de acceso** Limitar el acceso a los datos sensibles tanto por parte de los usuarios como de los procedimientos, es decir, que solo determinados usuarios y procedimientos estén autorizados a realizar consultas en información sensible.
+|1.Seguridad Cuando se crean las bases datos SQL Server en la nube Azure.|• **Control de acceso** Limitar el uso de los procedimientos importantes solo a usuarios específicos.
+|1.Seguridad Cuando se crean las bases datos SQL Server en la nube Azure.|• **Control de acceso** Siempre que sea posible, evitar las concurrencias y acceso fuera del horario laboral o habitual.
+|1.Seguridad Cuando se crean las bases datos SQL Server en la nube Azure.|• **Control de acceso** Deshabilitar todos los servicios y procedimientos que no se utilicen| 
+|1.Seguridad Cuando se crean las bases datos SQL Server en la nube Azure.|• **Cifrado de la información** Esta técnica protege la información sensible de la Organización de contratos.| 
+|1.Seguridad Cuando se crean las bases datos SQL Server en la nube Azure.|• **Campos recomendados para enmascarar** El motor de recomendaciones de DDM marca determinados campos de la base de datos como campos potencialmente confidenciales, que pueden ser buenos candidatos para el enmascaramiento. En la hoja Enmascaramiento de datos dinámicos del portal, verá las columnas recomendadas para la base de datos. Todo lo que debe hacer es hacer clic en Agregar máscara para una o más columnas y, después, en Guardar a fin de aplicar una máscara para estos campos.|  
+
+|Seguridad Cuando se migran las bases datos SQL Server en la nube Azure.|
+| -----|
+
+| **N°** | **Guia** |
+| -------|-------|
+|1.Métodos de migración|• Proceso de migración de la base de datos, utilice la opción AlwaysOn. Ya que presta mayor seguridad en la migración de los datos en la nube Azure y mantiene la disponibilidad de este.|
+
+
+|Cuando se realizan backups de la bases datos SQL Server en la nube Azure|
+| -----|
+
+| **N°** | **Guia** |
+| -------|-------|
+|1.Métodos de backups|• De forma predeterminada, los permisos BACKUP DATABASE y BACKUP LOG corresponden a los miembros del rol fijo de servidor sysadmin y de los roles fijos de base de datos db_owner y db_backupoperator.|
+ 
+|Cuando se da de baja la bases datos SQL Server en la nube Azure|
+| -----|
+
+| **N°** | **Guia** |
+| -------|-------|
+|1.Método de Borrado Seguro|• •	Para realizar un borrado seguro a la organización de contracción utiliza la herramienta ApexSQL Clean puede ayudar a determinar todas las dependencias en una base de datos, las dependencias con objetos en una base de datos externa o proyectos .NET, Delphi, C++ y ASP. También analiza las dependencias de los objetos de la base de datos SQL, así como el impacto de los cambios potenciales y eliminaciones en su base de datos SQL, y determina las interrelaciones de objetos dentro de la base de datos, entre diferentes bases de datos, scripts e incluso aplicaciones.|
+ 
+
+ 
+
 
 ## PR.DS4 ##  
 
