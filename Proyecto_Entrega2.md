@@ -86,7 +86,8 @@ Confidentiality (C): High
 Integrity (I): None  
 Availability (A): None  
 
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/scanvulne.jpg)  
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/Scanvulne.JPG)  
+  
 
 ## ID.RA3 ##  
 
