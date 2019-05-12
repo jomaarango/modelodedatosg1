@@ -173,7 +173,7 @@ TDE realiza el cifrado y descifrado de E/S en tiempo real de los datos y los arc
 
 Cuando se usa TDE con SQL Database V12, SQL Database crea de forma automática el certificado de nivel de servidor almacenado en la base de datos maestra. Para mover una base de datos de TDE en SQL Database, no es necesario descifrarla para la operación de traslado.
 
-**Jerrarquia de llaves que se utilizan en el servicio de datos transparente TDE**    
+**Jerrarquia de llaves que se utilizan en el servicio de cifrado de datos transparente TDE**    
 
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Cifrado-TDE.png)  
 
