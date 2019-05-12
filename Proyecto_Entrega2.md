@@ -65,47 +65,46 @@ Esta parte del proyecto se centra en implementar el Framework NIST y los siguien
 
 **Se realiza la validación de las vulnerabilidades asociadas a Microsoft SQL Azure (RTM) - 12.0.2000.8**    
 
+**Se realizo escaneo con Exchange Xforce IBM en busqueda de vulnerabilidades **      
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/EXCHANGE-XFORCE-IBM.png)  
 
-**Se realizo escaneo con Exchange Xforce IBM en busqueda de culnerabilidades **    
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/EXCHANGE-XFORCE-IBM.png)
-
-Sobre la infraestructura cloud de azure existe un servicio que nos permite identificar riesgo a nivel de seguridad en nuestra base de datos se encontraron 7 riesgos asociados de los cueles 3 son de riesgo altos 2 de riesgo medio y 2 de riesgo alto los cuales son respectivamente:    
+Sobre la infraestructura cloud de azure existe un servicio que nos permite identificar riesgo a nivel de seguridad en nuestra base de datos se encontraron 7 riesgos asociados de los cueles 3 son de riesgo altos 2 de riesgo medio y 2 de riesgo alto los cuales son respectivamente:      
 	
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Vulnerabilidades%20BD.png)  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Vulnerabilidades%20BD.png)    
 
--Database owners are as expected  *con un nivel de reisgo catalogado como alto
--Auditing should be enabled at the server level *con un nivel de reisgo catalogado como alto    
--Server-level firewall rules should be tracked and maintained at a strict minimum *con un nivel de reisgo catalogado como alto    
--All memberships for user-defined roles should be intended *con un nivel de reisgo catalogado como alto    
--Sensitive data columns should be classified *con un nivel de reisgo catalogado como alto   
--Minimal set of principals should be granted database-scoped SELECT permission on objects or columns *con un nivel de reisgo catalogado como alto    
--Minimal set of principals should be granted database-scoped SELECT or EXECUTE permissions on schema *con un nivel de reisgo catalogado como alto    
+-Database owners are as expected  *con un nivel de riesgo catalogado como alto*    
+-Auditing should be enabled at the server level *con un nivel de riesgo catalogado como alto*        
+-Server-level firewall rules should be tracked and maintained at a strict minimum *con un nivel de reisgo catalogado como alto*      
+-All memberships for user-defined roles should be intended *con un nivel de riesgo catalogado como alto*      
+-Sensitive data columns should be classified *con un nivel de riesgo catalogado como alto*     
+-Minimal set of principals should be granted database-scoped SELECT permission on objects or columns *con un nivel de riesgo catalogado como alto*      
+-Minimal set of principals should be granted database-scoped SELECT or EXECUTE permissions on schema *con un nivel de riesgo catalogado como alto*        
 
-De todos los encontrados se realiza planes de mejora a continuación se detalla el primer plan sobre el primer riesgo alto   
+De todos los encontrados se realiza planes de mejora a continuación se detalla el primer plan sobre el primer riesgo alto     
 
-**Codigo VA1258   
-**Database owners are as expected  
+**Codigo VA1258**   
+**Database owners are as expected**    
 
-Los propietarios de Data base pueden realizar todas las actividades de configuración y mantenimiento en la base de datos y también pueden eliminar las bases de datos en SQL Server. El seguimiento de los propietarios de bases de datos es importante para evitar tener permisos excesivos para algunos directores.  Con el fin de acatar esta recomendación se crea una línea de base que define cuales son los propietarios de base de datos esperados para la base de datos. Se establece que 1 vez al mes se ejecuta esta regla que verifica si los propietarios de la base de datos están definidos en la línea de base y son los autorizados  
+Los propietarios de Data base pueden realizar todas las actividades de configuración y mantenimiento en la base de datos y también pueden eliminar las bases de datos en SQL Server. El seguimiento de los propietarios de bases de datos es importante para evitar tener permisos excesivos para algunos directores.  Con el fin de acatar esta recomendación se crea una línea de base que define cuales son los propietarios de base de datos esperados para la base de datos. Se establece que 1 vez al mes se ejecuta esta regla que verifica si los propietarios de la base de datos están definidos en la línea de base y son los autorizados    
 
-SELECT USER_NAME(member_principal_id) AS [Owner]  
+SELECT USER_NAME(member_principal_id) AS [Owner]    
 FROM sys.database_role_members  
 WHERE USER_NAME(role_principal_id) = 'db_owner'  
-AND USER_NAME(member_principal_id) != 'dbo'  
+AND USER_NAME(member_principal_id) != 'dbo'    
 
-Los únicos usuarios ‘db owner’ establecidos son JOAQUIN y JUAN    
+Los únicos usuarios ‘db owner’ establecidos son JOAQUIN y JUAN      
 
-Se eliminan los permisos propietarios de bases de datos innecesarios para evitar otorgar permisos excesivos para este caso el usuario Alberto   
+Se eliminan los permisos propietarios de bases de datos innecesarios para evitar otorgar permisos excesivos para este caso el usuario Alberto     
 
-ALTER ROLE db_owner DROP MEMBER [ALBERTO]  
+ALTER ROLE db_owner DROP MEMBER [ALBERTO]    
 
 
-**Se realizo escaneo con Qualys con una buena clasificacion general pero se identifica e informa que el recurso publiacado accepta peticiones de cifrados debiles de TLS 1.1 Y TLS 1.0 para lo cual se establecen medidas para evitar la aceptacion de estos protocolos de seguridad en trasnporte de datos debiles**    
+**Se realizo escaneo con Qualys con una buena clasificacion general pero se identifica e informa que el recurso publiacado accepta peticiones de cifrados debiles de TLS 1.1 Y TLS 1.0 para lo cual se establecen medidas para evitar la aceptacion de estos protocolos de seguridad en trasnporte de datos debiles**      
 
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/QUALYS.png)  
 
 **TLS 1.1 Y TLS 1.0 habilitados**   
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/acepta%20negociacioncon%20TLS%201.1%20Y%201.0.png)
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/acepta%20negociacioncon%20TLS%201.1%20Y%201.0.png)  
  
 
 **ID.RA-4: POTENCIAL BUSINESS IMPACTS AND LIKELIHOODS ARE IDENTIFIED**
