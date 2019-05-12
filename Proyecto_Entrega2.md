@@ -175,7 +175,7 @@ Cuando se usa TDE con SQL Database V12, SQL Database crea de forma automática e
 
 **Jerrarquia de llaves que se utilizan en el servicio de datos transparente TDE**    
 
-[Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Cifrado-TDE.png)  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Cifrado-TDE.png)  
 
 ##* PR.DS2 ##  
 
