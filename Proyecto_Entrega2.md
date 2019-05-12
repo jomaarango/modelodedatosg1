@@ -157,6 +157,14 @@ Availability (A): None
 
 ## PR.AC1 ##  
 
+## asegurimiento de autenticacion en la nube** 
+
+
+**se generan cambios a nivel de la plataforma se configuran los roles y el gestor de identidades en la nube 
+
+
+
+
 ## PR.AC4 ##  
 
 ## PR.DS1 ##  
