@@ -212,7 +212,7 @@ Como se evidencia en la imagen a continuación se procede a identificar vulnerab
 **Integracion con el directorio activo AZURE AD**  
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Configuracion%20de%20active%20directory.png)  
 
-**Asignacion de roles sobre los usuarios de bases de datos**
+**Asignacion de roles sobre los usuarios de bases de datos**  
 Permite identificar los usuarios y su funcion, dado que por la segregación de funciones se aplican roles epecificos que tienen una finalidad sobre la base de datos, en este caso un usuario operacdor que ejecuta los backup sobre las bases de datos.  
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/asegurarusuarios.JPG)  
 
@@ -237,7 +237,13 @@ Cuando se usa TDE con SQL Database V12, SQL Database crea de forma automática e
 
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Cifrado-TDE.png)  
 
-##* PR.DS2 ##  
+Dentro del Modelo cotrmplado por la nube actualmente se cuenta con canales de comunicación cifrados que garantizan un nivel de confidencialidad de la información superior, esto con el fin de que las comunicaciones en caso de ser comprometidas garanticen completa confidencialidad de la información que viaja hacia la nube.  
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=UrZNkak_DT8
+" target="_blank"><img src="https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Azure.JPG" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+## PR.DS2 ##  
 
 ## PR.DS3 ##  
 
