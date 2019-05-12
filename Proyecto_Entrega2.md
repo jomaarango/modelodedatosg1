@@ -72,7 +72,12 @@ Esta parte del proyecto se centra en implementar el Framework NIST y los siguien
 
 **Escaneo con Qualys con una buena clasificacion general pero se identifica e informa que el recurso publiacado accepta peticiones de cifrados debiles de TLS 1.1 Y TLS 1.0**  
 
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/QUALYS.png)
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/QUALYS.png)  
+
+**TLS 1.1 Y TLS 1.0 habilitados**   
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/acepta%20negociacioncon%20TLS%201.1%20Y%201.0.png)
+
+
 
 
 ## ID.RA2 Cyber threat intelligence is received from information sharing forums and sources ##  
