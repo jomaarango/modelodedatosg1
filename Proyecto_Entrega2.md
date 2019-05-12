@@ -160,10 +160,17 @@ Availability (A): None
 ## asegurimiento de autenticacion en la nube** 
 
 
-**se generan cambios a nivel de la plataforma se configuran los roles y el gestor de identidades en la nube 
+**Se generan cambios a nivel de la plataforma se configuran los roles y el gestor de identidades en la nube 
 
+**Roles habilitados sobre el gestor de identidades IAM en el cloud de Azure**
 
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/ROLES%20en%20gestor%20de%20identidad.png)  
 
+**Roles habilitados sobre el gestor de identidades IAM en el cloud de Azure**  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/roles%202%20iam.png)  
+
+**Integracion con el directorio activo AZURE AD**  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Configuracion%20de%20active%20directory.png)  
 
 ## PR.AC4 ##  
 
