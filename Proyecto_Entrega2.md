@@ -1,6 +1,6 @@
 ## SEGURIDAD EN BASES DE DATOS ## 
 
-## Entrega 1: Identify, Protect_A ##   
+## Entrega 2: Protect_B y Detect. ##   
  
 Arango Garcia Jorge Mario  
 Chacon Prieto Jose Alberto  
@@ -15,7 +15,7 @@ César Iván Rodríguez Sánchez
 **POSTGRADOS**  
 **BOGOTÁ**  
 
-**MAYO 05 DE 2019**
+**MAYO 12 DE 2019**
 
 ## Tabla de Contenido ## 
 
@@ -27,36 +27,58 @@ César Iván Rodríguez Sánchez
 
 ## Introducción ##
 
-Las organizaciones en la actualidad reconocen que existen amenazas significativas ante la posibilidad de la ocurrencia de un incidente o desastre que afecte la operación, como también la necesidad de recuperarse en el menor tiempo posible, garantizando la continuidad de la organización.
+Como parte de la continuidad de la implementación de los controles del framework NIST, en esta parte se da cobertura a los controles orientados a la protección y algunos de identificación faltantes. En total se abordarán 12 controles que se describirán y mostrara su implementación de acuerdo con el contexto de la organización elegido para el proyecto en la etapa 1 ya desarrollada.  
+  
+  
+## Objetivos ##  
+  
+Dar continuidad a la implementación de los controles abordados en el modulo de seguridad de bases de datos, para que sean implementados dentro del contexto seleccionado para el proyecto. Se abordarán los faltantes a la identificación y protección.  
+  
+## Objetivos Específicos ##  
+  
+•	Identificar y determinar los sistemas, activos, datos y competencias de la organización, su contexto de negocio, los recursos que soportan las funciones críticas y los riesgos de ciberseguridad que afectan este entorno.  
 
-La implementación del Framework NIST en la organización ayuda y proporcionan una base sólida para un programa de seguridad sólido proporciona un lenguaje común para comprender, gestionar y expresar el riesgo de ciberseguridad tanto internamente como externamente. Este Se puede usar para ayudar a identificar y priorizar acciones para reducir el riesgo de ciberseguridad, y es una herramienta para alinear los enfoques de políticas, negocios y tecnología para manejar dicho riesgo. Se puede usar para administrar el riesgo de ciberseguridad en todas las organizaciones o se puede enfocar en la entrega de servicios críticos dentro de una organización, El Core del Framewok NIST comprende cuatro elementos: Funciones, Categorías, Subcategorías y Referencias Informativas.
+•	Proteger e implementar las contramedidas y salvaguardas necesarias para limitar o contener el impacto de un evento potencial de ciberseguridad.  
+  
+  
+## Alcance ##  
+
+Esta parte del proyecto se centra en implementar el Framework NIST y los siguientes controles:  
+* ID.RA1 
+* ID.RA2 
+* ID.RA3 
+* ID.RA4 
+* PR.AC1 
+* PR.AC4 
+* PR.DS1 
+* PR.DS2 
+* PR.DS3 
+* PR.DS4 
+* PR.IP1 
+
+## ID.RA1 ## 
+**Se realiza la identificación de la version base de datos con el fin de encontrar vulnerabilidades asociadas a este activo de informacion con el fin de mitigar riesgos asociados  
+
+**Comando utilizado** *SELECT @@VERSION AS 'SQL Server Version'  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Version%20de%20la%20base%20de%20datos.png)  
+
+**Se realiza la validación de las vulnerabilidades asociadas a Microsoft SQL Azure (RTM) - 12.0.2000.8**    
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Vulnerabilidades%20BD.png)
+
+**Escaneo con Exchange Xforce IBM**    
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/EXCHANGE-XFORCE-IBM.png)
+
+**Escaneo con Qualys con una buena clasificacion general pero se identifica e informa que el recurso publiacado accepta peticiones de cifrados debiles de TLS 1.1 Y TLS 1.0**  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/QUALYS.png)  
+
+**TLS 1.1 Y TLS 1.0 habilitados**   
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/acepta%20negociacioncon%20TLS%201.1%20Y%201.0.png)
 
 
-## Objetivos ##
-
-El objetivo de este documento es definir claramente los límites Framework NIST que son comunes en todos los sectores de infraestructura críticas y determinar las brechas en su enfoque actual de riesgo de ciberseguridad y desarrollar una hoja de ruta hacia la mejora en las prácticas de ciberseguridad de una organización.
-
-
-## Objetivos Específicos ##
-
-•	Identificar y determinar los sistemas, activos, datos y competencias de la organización, su contexto de negocio, los recursos que soportan las funciones críticas y los riesgos de ciberseguridad que afectan este entorno.
-
-•	Proteger e implementar las contramedidas y salvaguardas necesarias para limitar o contener el impacto de un evento potencial de ciberseguridad.
-
-
-## Alcance ##
-
-Este proyecto es el primer paso hacia el concepto global. En este caso. El proyecto se centra en implementar el Framework NIST y su primer categoría Identificar (Identify) 
-* ID.AM-2
-* ID.AM-3
-* ID.AM-5
-* ID.AM-6
-* ID.GV-3
-* ID.GV-4. 
-
-• Identificar: Desarrollar la comprensión organizacional para administrar el riesgo de ciberseguridad para sistemas, activos, datos y capacidades.
-
-• Desarrollar e implementar las salvaguardas apropiadas para garantizar la entrega de servicios de infraestructura críticos.La función de protección admite la capacidad de limitar o contener el impacto de un posible evento de ciberseguridad.
+##Desarrollar e implementar las salvaguardas apropiadas para garantizar la entrega de servicios de infraestructura críticos.La función de protección admite la capacidad de limitar o contener el impacto de un posible evento de ciberseguridad.  
 
 
 **ID.RA-4: POTENCIAL BUSINESS IMPACTS AND LIKELIHOODS ARE IDENTIFIED**
@@ -103,4 +125,46 @@ Para calcular el RPO (punto objetivo de recuperación), se clasificaron las apli
 
 
 
+=======
 
+
+## ID.RA2 Cyber threat intelligence is received from information sharing forums and sources ##  
+En las revisiones del control se puede documentar que de acuerdo con las revisiones sobre el mismo se procede con la identificación de posibles vulnerabilidades sobre los servicios de nube para bases de datos obteniendo la vulnerabilidad:    
+**CVE-2016-2183 Detail**  
+**Impact**  
+  
+CVSS v3.0 Severity and Metrics:  
+  
+Base Score: 7.5 HIGH  
+Vector: AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N (V3 legend)    
+Impact Score: 3.6  
+Exploitability Score: 3.9  
+Attack Vector (AV): Network  
+Attack Complexity (AC): Low  
+Privileges Required (PR): None  
+User Interaction (UI): None  
+Scope (S): Unchanged  
+Confidentiality (C): High  
+Integrity (I): None  
+Availability (A): None  
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/Scanvulne.JPG)  
+  
+
+## ID.RA3 ##  
+
+## ID.RA4 ##  
+
+## PR.AC1 ##  
+
+## PR.AC4 ##  
+
+## PR.DS1 ##  
+
+##* PR.DS2 ##  
+
+## PR.DS3 ##  
+
+## PR.DS4 ##  
+
+## PR.IP1 ##  
