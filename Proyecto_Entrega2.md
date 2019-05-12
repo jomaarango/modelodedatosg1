@@ -56,7 +56,15 @@ Esta parte del proyecto se centra en implementar el Framework NIST y los siguien
 * PR.DS4 
 * PR.IP1 
 
-## ID.RA1 ##  
+## ID.RA1 ## 
+**Se realiza la identificación de la version base de datos con el fin de encontrar vulnerabilidades asociadas a este activo de informacion con el fin de mitigar riesgos asociados  
+
+**Comando utilizado** *SELECT @@VERSION AS 'SQL Server Version'  
+
+Se realiza la validación de las vulnerabilidades asociadas a Microsoft SQL Azure (RTM) - 12.0.2000.8  
+
+https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Version%20de%20la%20base%20de%20datos.png
+
 
 ## ID.RA2 Cyber threat intelligence is received from information sharing forums and sources ##  
 
