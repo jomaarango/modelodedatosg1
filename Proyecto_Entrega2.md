@@ -161,23 +161,21 @@ Availability (A): None
 
 ## PR.DS1 ##  
 
-**Cifrado de la base de datos aplicado en la infraestructura en la nube
+**Cifrado de la base de datos aplicado en la infraestructura en la nube**
 
 el servicio adquirido en AZURE SQL Database en este momento Cifra la base de datos, copias de seguridad y registros en reposo sin realizar cambios en la aplicación todo esto gracias al servicio TDE
 
 El Cifrado de datos transparente (TDE) cifra los archivos de datos de SQL Server, Base de datos SQL de Azure y Almacenamiento de datos SQL de Azure, lo que se conoce como cifrado de datos en reposo.  
 
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/CIFRADO%20DE%20DATOS%20EN%20NUBE%20.png)
-
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/CIFRADO%20DE%20DATOS%20EN%20NUBE%20.png)  
 
 TDE realiza el cifrado y descifrado de E/S en tiempo real de los datos y los archivos de registro. El cifrado utiliza una clave de cifrado de la base de datos (DEK), que está almacenada en el registro de arranque de la base de datos para que esté disponible durante la recuperación. La DEK es una clave simétrica protegida utilizando un certificado almacenado en la base de datos maestra del servidor o una clave asimétrica protegida por un módulo EKM. TDE protege los datos "en reposo", es decir, los archivos de datos y de registro. Ofrece la posibilidad de cumplir muchas leyes, normativas y directrices establecidas en diversos sectores. También permite a los desarrolladores de software cifrar los datos mediante algoritmos de cifrado AES y 3DES sin cambiar las aplicaciones existentes.
 
 Cuando se usa TDE con SQL Database V12, SQL Database crea de forma automática el certificado de nivel de servidor almacenado en la base de datos maestra. Para mover una base de datos de TDE en SQL Database, no es necesario descifrarla para la operación de traslado.
 
-**Jerrarquia de llaves que se utilizan en el servicio de datos transparente TDE**  
+**Jerrarquia de llaves que se utilizan en el servicio de datos transparente TDE**    
 
 [Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Cifrado-TDE.png)  
-
 
 ##* PR.DS2 ##  
 
