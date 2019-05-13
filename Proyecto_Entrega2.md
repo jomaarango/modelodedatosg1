@@ -242,7 +242,7 @@ Dentro del Modelo cotrmplado por la nube actualmente se cuenta con canales de co
 " target="_blank"><img src="https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Azure.JPG" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-## PR.DS2 ## 
+## PR.DS2 Data-in-transit is protected
 
 Se realiza un escaneo del certificado SSL https://azure.microsoft.com, en donde se encuentra la base datos de la organización de contratos, mediante la herramienta https://www.ssllabs.com
 
@@ -297,7 +297,7 @@ La organización de contracción entienden por protección de datos todas aquell
 
 ## PR.DS4 Adequate capacity to ensure availability is maintained##  
 
-## PR.IP1 ##  
+
 
 
 ## PR.IP-1: A baseline configuration of information technology systems is created and maintained
