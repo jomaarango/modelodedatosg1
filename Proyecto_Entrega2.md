@@ -145,33 +145,8 @@ Como se evidencia en la imagen a continuación se procede a identificar vulnerab
 
 
 
-## ID.RA3  
+## ID.RA3 Threats, both internal and external, are identified and documented
 
-## PR.AC1 Identities and credentials are issued,managed, verified, revoked, and audited ##  
-
-**Asegurimiento de autenticacion en la nube** 
-
-
-**Se generan cambios a nivel de la plataforma se configuran los roles y el gestor de identidades en la nube**
-
-**Roles habilitados sobre el gestor de identidades IAM en el cloud de Azure**
-
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/ROLES%20en%20gestor%20de%20identidad.png)  
-
-**Roles habilitados sobre el gestor de identidades IAM en el cloud de Azure**  
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/roles%202%20iam.png)  
-
-**Integracion con el directorio activo AZURE AD**  
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Configuracion%20de%20active%20directory.png)  
-
-**Asignacion de roles sobre los usuarios de bases de datos**  
-Permite identificar los usuarios y su funcion, dado que por la segregación de funciones se aplican roles epecificos que tienen una finalidad sobre la base de datos, en este caso un usuario operacdor que ejecuta los backup sobre las bases de datos.  
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/asegurarusuarios.JPG)  
-
-
- 
- 
- 
 
 ## ID.RA-4 POTENCIAL BUSINESS IMPACTS AND LIKELIHOODS ARE IDENTIFIED
 
@@ -210,6 +185,37 @@ Después de calificar cada proceso y de valorar, cuáles de estos son prioritari
 El cálculo del RTO se determinó de acuerdo con el riesgo máximo tolerable.
 
 Para calcular el RPO (punto objetivo de recuperación), se clasificaron las aplicaciones a las cuales se les debe hacer mecanismos de protección de datos, tales como backups o sistemas alternos.
+
+
+
+
+
+
+## PR.AC1 Identities and credentials are issued,managed, verified, revoked, and audited ##  
+
+**Asegurimiento de autenticacion en la nube** 
+
+
+**Se generan cambios a nivel de la plataforma se configuran los roles y el gestor de identidades en la nube**
+
+**Roles habilitados sobre el gestor de identidades IAM en el cloud de Azure**
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/ROLES%20en%20gestor%20de%20identidad.png)  
+
+**Roles habilitados sobre el gestor de identidades IAM en el cloud de Azure**  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/roles%202%20iam.png)  
+
+**Integracion con el directorio activo AZURE AD**  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/Configuracion%20de%20active%20directory.png)  
+
+**Asignacion de roles sobre los usuarios de bases de datos**  
+Permite identificar los usuarios y su funcion, dado que por la segregación de funciones se aplican roles epecificos que tienen una finalidad sobre la base de datos, en este caso un usuario operacdor que ejecuta los backup sobre las bases de datos.  
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/asegurarusuarios.JPG)  
+
+
+ 
+ 
+ 
 
 
 
