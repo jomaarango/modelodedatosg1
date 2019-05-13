@@ -225,22 +225,11 @@ Para calcular el RPO (punto objetivo de recuperación), se clasificaron las apli
 Permite identificar los usuarios y su funcion, dado que por la segregación de funciones se aplican roles epecificos que tienen una finalidad sobre la base de datos, en este caso un usuario operacdor que ejecuta los backup sobre las bases de datos.  
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/asegurarusuarios.JPG)  
 
-
- 
- 
- 
-
-
-
-
-
-
-
-
-
 ## PR.AC4 Access permissions and authorizations are managed  
 
-
+|USUARIOS|ROLES|
+|-----------------------------------------|-----------------------------------------|
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/usuarios1.jpg) |![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/roles1.jpg)|
 
 ## PR.DS1 Data-at-rest is protected  
 
