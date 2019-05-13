@@ -249,9 +249,9 @@ Se realiza un escaneo del certificado SSL https://azure.microsoft.com, en donde 
 
 El Escaneo con Qualys SSL Lab, Muestra una calificación de A general, pero se identifica e informa que el recurso publicado acepta peticiones de cifrados débiles de TLS 1.1 Y TLS 1.0  
 
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/1.SSLverificacion.png)    
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/2.SSLverificacion.png)   
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/3.SSLverificacion.png)  
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/1.SSLverificacion.PNG)    
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/2.SSLverificacion.PNG)   
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/3.SSLverificacion.PNG)  
 
 ## PR.DS3 ##  
 
