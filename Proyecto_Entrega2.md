@@ -227,9 +227,21 @@ Permite identificar los usuarios y su funcion, dado que por la segregación de f
 
 ## PR.AC4 Access permissions and authorizations are managed  
 
+Se verifican los usuarios y roles en la base de datos. 
+
 |USUARIOS|ROLES|
 |-----------------------------------------|-----------------------------------------|
-|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/usuarios1.jpg) |![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/roles1.jpg)|
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/usuarios1.jpg) |![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/roles1.jpg)|  
+
+
+El control de acceso a la base de datos se puede realizar de forma granular para cada usuario, teniendo en cuenta el principio de menor privilegio  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/r1.jpg)  
+
+
+La asignacion del acceso se realiza por medio de sentencias sql  
+
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/r2.jpg)
 
 ## PR.DS1 Data-at-rest is protected  
 
