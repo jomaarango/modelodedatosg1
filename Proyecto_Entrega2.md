@@ -296,9 +296,27 @@ La organización de contracción entienden por protección de datos todas aquell
 |1.Método de Borrado Seguro|• • Para realizar un borrado seguro a la organización de contracción utiliza la herramienta ApexSQL Clean puede ayudar a determinar todas las dependencias en una base de datos, las dependencias con objetos en una base de datos externa o proyectos .NET, Delphi, C++ y ASP. También analiza las dependencias de los objetos de la base de datos SQL, así como el impacto de los cambios potenciales y eliminaciones en su base de datos SQL, y determina las interrelaciones de objetos dentro de la base de datos, entre diferentes bases de datos, scripts e incluso aplicaciones.|
 
 
-## PR.DS4 Adequate capacity to ensure availability is maintained##  
+## PR.DS4 Adequate capacity to ensure availability is maintained ##  
 
+Dentro del control descrito se procede a validar directamente desde las herramientas que ofrece la nube, la posibilidad de realizar monitoreo y creación de alertas que permitan realizar seguimiento en diferentes aspectos de la base de datos como: 
+* Uso de CPU  
+* Almacenamiento  
+* Firewall  
+* Conexiones  
+  
+A continuación mostramos un video referente al como se aplica el control en este tipo de infraestructura:  
 
+* Dar click en la imagen para ver el video:  
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Jw0sT6ew_Bw
+" target="_blank"><img src="https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/creacionmonitoreo.JPG" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
+
+Asi mismo la configuración de alertas referentes al control de monitoreo:  
+
+* Dar click en la imagen para ver el video:  
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Jw0sT6ew_Bw
+" target="_blank"><img src="https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/creacionmonitoreo.JPG" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
 
 
 ## PR.IP-1: A baseline configuration of information technology systems is created and maintained
