@@ -269,7 +269,7 @@ El Escaneo con Qualys SSL Lab, Muestra una calificación de A general, pero se i
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/3.SSLverificacion.PNG)  
 
-## PR.DS3 ##  
+## PR.DS3  Assets are formally managed throughout removal, transfers, and disposition  
 
 La organización de contracción entienden por protección de datos todas aquellas medidas tomadas a nivel físico, técnico y jurídico para garantizar que la información de los Titulares como: personas naturales (proveedores, personal  de la organización de contratación empleados, ex empleados, entre otros) registrados en la base datos de la organización de contratación, esté segura de cualquier ataque o intento de acceder a ella por parte de personas no autorizadas, así como que su uso y conservación sea adecuado a la Finalidad establecida para la recolección de los Datos Personales, en todo su ciclo de vida.
 
@@ -335,7 +335,7 @@ Asi mismo la configuración de alertas referentes al control de monitoreo:
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
 
 
-## PR.IP-1: A baseline configuration of information technology systems is created and maintained
+## PR.IP-1 A baseline configuration of information technology systems is created and maintained
 Para realizar el hardening a la base de datos verificamos la versión del motor, ejecutando el comando *SELECT SERVERPROPERTY('productversion'), SERVERPROPERTY ('productlevel'), SERVERPROPERTY ('edition')*
 
 El motor de base de datos es SQL Azure RTM version 12.0.2008. RTM (Release To Manufacturing) indica  la versión final.
