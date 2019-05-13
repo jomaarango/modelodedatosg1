@@ -314,7 +314,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 Asi mismo la configuración de alertas referentes al control de monitoreo:  
 
 * Dar click en la imagen para ver el video:  
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Jw0sT6ew_Bw
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=jt8CvCjlnJw
 " target="_blank"><img src="https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/creacionmonitoreo.JPG" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
 
