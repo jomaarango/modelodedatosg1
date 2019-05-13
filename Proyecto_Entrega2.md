@@ -221,13 +221,15 @@ Permite identificar los usuarios y su funcion, dado que por la segregación de f
 
 
 
-=======
 
 
 
-## PR.AC4 ##  
 
-## PR.DS1 Data-at-rest is protected##  
+## PR.AC4 Access permissions and authorizations are managed  
+
+
+
+## PR.DS1 Data-at-rest is protected  
 
 **Cifrado de la base de datos aplicado en la infraestructura en la nube**
 
