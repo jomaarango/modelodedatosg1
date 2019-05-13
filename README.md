@@ -1,5 +1,5 @@
 ## Seguridad en Bases de Datos basado en Framework de Ciberseguridad NIST ## 
-###### Entrega 1 ######
+###### Entrega 1 y 2 ######
 Este repositorio tiene como objetivo cargar la información de la base de datos a utilizar para el proyecto de seguridad de base de datos de la Maestria de seguridad informatica y las comunicaciones C 01 el cual tiene los siguientes criterios:
 
 * Escoger un conjunto de datos que se pueda descargar de Internet.
