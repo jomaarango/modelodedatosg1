@@ -276,7 +276,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|REMEDIACIÓN|
 |-----------------------------------------|-----------------------------------------|
-|![Image of Yaktocat](41a) |![Image of Yaktocat](41b)|
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/41a.jpg) |![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/41b.jpg)|
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -284,7 +284,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|
 |-----------------------------------------------------------------------------------|
-|![Image of Yaktocat](42a) |
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/42a.jpg) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -292,7 +292,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat](43a) |![Image of Yaktocat](43b)|
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/43a.jpg) |![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/43b.jpg)|
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -300,7 +300,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|
 |-----------------------------------------------------------------------------------|
-|![Image of Yaktocat](44a) |
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/44a.jpg) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -308,7 +308,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|
 |-----------------------------------------------------------------------------------|
-|![Image of Yaktocat](45a) |
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/45a.jpg) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -316,7 +316,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat](46a) |![Image of Yaktocat](46b)|
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/46a.jpg) |![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/46b.jpg)|
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -324,7 +324,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|
 |-----------------------------------------------------------------------------------|
-|![Image of Yaktocat](47a) |
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/47a.jpg) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -332,7 +332,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|
 |-----------------------------------------------------------------------------------|
-|![Image of Yaktocat](48a) |
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/48a.jpg) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -340,7 +340,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|
 |-----------------------------------------------------------------------------------|
-|![Image of Yaktocat](49a) |
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/49a.jpg) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
@@ -348,4 +348,4 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |VERIFICACIÓN|
 |-----------------------------------------------------------------------------------|
-|![Image of Yaktocat](410a) |
+|![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/410a.jpg) |
