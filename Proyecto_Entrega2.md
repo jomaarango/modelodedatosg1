@@ -56,7 +56,8 @@ Esta parte del proyecto se centra en implementar el Framework NIST y los siguien
 * PR.DS4 
 * PR.IP1 
 
-## ID.RA1 ## 
+## ID.RA1 Asset vulnerabilities are identified and documented
+
 **Se realiza la identificación de la version base de datos con el fin de encontrar vulnerabilidades asociadas a este activo de informacion con el fin de mitigar riesgos asociados  
 
 **Comando utilizado** *SELECT @@VERSION AS 'SQL Server Version'  
@@ -107,7 +108,7 @@ ALTER ROLE db_owner DROP MEMBER [ALBERTO]
 ![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/acepta%20negociacioncon%20TLS%201.1%20Y%201.0.png)  
  
 
-**ID.RA-4: POTENCIAL BUSINESS IMPACTS AND LIKELIHOODS ARE IDENTIFIED**
+**ID.RA-4 POTENCIAL BUSINESS IMPACTS AND LIKELIHOODS ARE IDENTIFIED**
 
 #Desarrollar e implementar las salvaguardas apropiadas para garantizar la entrega de servicios de infraestructura críticos.La función de protección admite la capacidad de limitar o contener el impacto de un posible evento de ciberseguridad. 
 **LA PRESENTE GUÍA ESTABLECE A LA ORGANIZACIÓN DE CONTRATACIÓN LOS CRITERIOS DE IMPACTO (BIA) DURANTE UNA INTERRUPCIÓN DE LA DISPONIBILIDAD DE LA BASES DATOS DE CONTRATACIÓN.** 
@@ -190,9 +191,9 @@ Como se evidencia en la imagen a continuación se procede a identificar vulnerab
 
 
 
-## ID.RA3 ##  
+## ID.RA3  
 
-## ID.RA4 ##  
+## ID.RA4   
 
 ## PR.AC1 Identities and credentials are issued,managed, verified, revoked, and audited ##  
 
