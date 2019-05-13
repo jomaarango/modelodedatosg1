@@ -110,11 +110,9 @@ ALTER ROLE db_owner DROP MEMBER [ALBERTO]
 
 ## ID.RA-4 POTENCIAL BUSINESS IMPACTS AND LIKELIHOODS ARE IDENTIFIED
 
-#Desarrollar e implementar las salvaguardas apropiadas para garantizar la entrega de servicios de infraestructura críticos.La función de protección admite la capacidad de limitar o contener el impacto de un posible evento de ciberseguridad. 
 **LA PRESENTE GUÍA ESTABLECE A LA ORGANIZACIÓN DE CONTRATACIÓN LOS CRITERIOS DE IMPACTO (BIA) DURANTE UNA INTERRUPCIÓN DE LA DISPONIBILIDAD DE LA BASES DATOS DE CONTRATACIÓN.** 
 
 Una interrupción de la disponibilidad de la Bases datos de contratación es aquella que afecta la publicación de los Documentos del Proceso como los contratos y documentos previos; los pliegos de condiciones del contrato; el informe de evaluación de los contratos y cualquier otro documento expedido durante el Proceso de Contratación, así como la consulta de los mismos por parte de los interesados y el público en general.
-
 
 **CRITERIO DE IMPACTO RIESGO DE UNA INTERRUPCIÓN DE LA DISPONIBILIDAD DE LA BASES DATOS DE CONTRATACIÓN**  
 
@@ -193,8 +191,6 @@ Como se evidencia en la imagen a continuación se procede a identificar vulnerab
 
 ## ID.RA3  
 
-## ID.RA4   
-
 ## PR.AC1 Identities and credentials are issued,managed, verified, revoked, and audited ##  
 
 **Asegurimiento de autenticacion en la nube** 
@@ -249,8 +245,14 @@ Se realiza un escaneo del certificado SSL https://azure.microsoft.com, en donde 
 
 El Escaneo con Qualys SSL Lab, Muestra una calificación de A general, pero se identifica e informa que el recurso publicado acepta peticiones de cifrados débiles de TLS 1.1 Y TLS 1.0  
 
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/1.SSLverificacion.PNG)    
-![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/2.SSLverificacion.PNG)   
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/1.SSLverificacion.PNG)  
+
+**Cifrados débiles de TLS 1.1 Y TLS 1.0**  
+
+![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/2.SSLverificacion.PNG)  
+
+**Cifrados débiles de TLS 1.1 Y TLS 1.0** 
+
 ![Image of Yaktocat](https://raw.githubusercontent.com/jomaarango/modelodedatosg1/master/IMAGENES/3.SSLverificacion.PNG)  
 
 ## PR.DS3 ##  
