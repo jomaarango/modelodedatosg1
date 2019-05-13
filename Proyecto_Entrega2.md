@@ -348,10 +348,10 @@ Asi mismo la configuración de alertas referentes al control de monitoreo:
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
 
 * Seguimiento a uso de CPU para la ultima semana
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/41a.jpg)
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/rendimiento.jpg)
 
 * Validacion de reglas activas en el Firewall
-![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/41a.jpg)
+![Image of Yaktocat](https://github.com/jomaarango/modelodedatosg1/blob/master/IMAGENES/fw.jpg)
 
 ## PR.IP-1 A baseline configuration of information technology systems is created and maintained
 Para realizar el hardening a la base de datos verificamos la versión del motor, ejecutando el comando *SELECT SERVERPROPERTY('productversion'), SERVERPROPERTY ('productlevel'), SERVERPROPERTY ('edition')*
