@@ -147,6 +147,19 @@ Como se evidencia en la imagen a continuación se procede a identificar vulnerab
 
 ## ID.RA3 Threats, both internal and external, are identified and documented
 
+Teniendo en cuenta el contexto de la organización se realiza un analisis de amenazas
+
+| Amenaza | Definicion | Control |
+|-----------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Elevacion de privilegios no autorizados | Transicion de privilegios de acceso bajo a privilegios de acceso alto | Control de acceso a nivel de consulta |
+| Vulnerabilidades en S.O. | Pueden permitir accesos no autorizados a las bases de datos | Parchado, Gestion de vulnerabilidades, FW - IPS |
+| Auditoria debil | La auditoria sobre una base de datos se puede desactivar | Implementacion de auditoria de base de datos en red |
+| Inyeccion de SQL | Vulnerabilidades en la aplicación web | Escaneo de vulnerabilidades, control de acceso a nivel de consulta |
+| Privilegios excesivos | Al usuario se le asignan privilegios en la base de datos que exceden sus   funciones. | Control de acceso a nivel de consulta |
+| Vulnerabilidades en protocolos de BD | Vulnerabilidades en la configuracion de conexiones hacia la base de   datos  | Validacion de comunicación SQL |
+| Abuso de privilegios | Abuso de privilegios concedidos legitimamente para modificaciones no   autorizadas en la base de datos  | Monitoreo de actividad de los usuarios, correlacionando ubicación, roles,   data. |
+| Autenticacion debil | Permiten a los atacantes suplantar la identidad de usuarios legitimos | Doble factor de autenticacion. |
+| Compromiso de data en backups | Robo de medios de backup | Backup cifrados |
 
 ## ID.RA-4 POTENCIAL BUSINESS IMPACTS AND LIKELIHOODS ARE IDENTIFIED
 
